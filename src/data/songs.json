@@ -1,28 +1,160 @@
 {
   "pools": [
     {
+      "id": "60er",
+      "name": "60er Hits",
+      "description": "Beatles, Stones, Motown: die Klassiker der Sechziger.",
+      "theme": "reel-beige",
+      "era": "1960er",
+      "genre": "Rock & Soul",
+      "group": "Jahrzehnte",
+      "extraCategories": [
+        "album",
+        "year"
+      ]
+    },
+    {
+      "id": "70er",
+      "name": "70er Hits",
+      "description": "Disco, Stadionrock und Singer-Songwriter.",
+      "theme": "jukebox-wood",
+      "era": "1970er",
+      "genre": "Rock & Disco",
+      "group": "Jahrzehnte",
+      "extraCategories": [
+        "album",
+        "year"
+      ]
+    },
+    {
+      "id": "80er",
+      "name": "80er Hits",
+      "description": "Synthesizer, Stadionhymnen und MTV.",
+      "theme": "neon-grid",
+      "era": "1980er",
+      "genre": "Pop & Rock",
+      "group": "Jahrzehnte",
+      "extraCategories": [
+        "album",
+        "year"
+      ]
+    },
+    {
+      "id": "90er",
+      "name": "90er Hits",
+      "description": "Grunge, Boygroups, Eurodance und Hip-Hop.",
+      "theme": "boombox-90s",
+      "era": "1990er",
+      "genre": "Pop, Rock & Dance",
+      "group": "Jahrzehnte",
+      "extraCategories": [
+        "album",
+        "year"
+      ]
+    },
+    {
       "id": "2000er",
       "name": "2000er Hits",
-      "description": "Die großen Radio-Hits der 2000er",
-      "theme": "reel-beige",
+      "description": "Der Sound der Nuller: Pop, Hip-Hop und Indie-Rock.",
+      "theme": "speaker-yellow",
       "era": "2000er",
-      "genre": "Pop & Rock"
+      "genre": "Pop & Hip-Hop",
+      "group": "Jahrzehnte",
+      "extraCategories": [
+        "album",
+        "year"
+      ]
     },
     {
       "id": "2010er",
       "name": "2010er Hits",
-      "description": "Decade-Playlist für die 2010er",
-      "theme": "speaker-yellow",
+      "description": "Streaming-Ära: Pop, EDM und Trap.",
+      "theme": "dictaphone-red",
       "era": "2010er",
-      "genre": "Pop"
+      "genre": "Pop & EDM",
+      "group": "Jahrzehnte",
+      "extraCategories": [
+        "album",
+        "year"
+      ]
     },
     {
       "id": "2020er",
       "name": "2020er Hits",
-      "description": "Aktuelle Charts und Streaming-Hits",
+      "description": "TikTok-Jahre: die Hits seit 2020.",
       "theme": "cassette-pixel",
       "era": "2020er",
-      "genre": "Pop"
+      "genre": "Pop",
+      "group": "Jahrzehnte",
+      "extraCategories": [
+        "album",
+        "year"
+      ]
+    },
+    {
+      "id": "film-90er",
+      "name": "Filmsongs der 90er",
+      "description": "Titelsongs und Hymnen aus Kinofilmen der Neunziger.",
+      "theme": "cinema-marquee",
+      "era": "1990er",
+      "genre": "Filmmusik",
+      "group": "Film & Games",
+      "extraCategories": [
+        "title",
+        "year"
+      ]
+    },
+    {
+      "id": "film-2000er",
+      "name": "Filmsongs der 2000er",
+      "description": "Songs, die durch Kinofilme der Nullerjahre berühmt wurden.",
+      "theme": "cinema-curtain",
+      "era": "2000er",
+      "genre": "Filmmusik",
+      "group": "Film & Games",
+      "extraCategories": [
+        "title",
+        "year"
+      ]
+    },
+    {
+      "id": "games-2000er",
+      "name": "Games der 2000er",
+      "description": "Songs aus GTA, Tony Hawk, Guitar Hero, Need for Speed und Portal.",
+      "theme": "arcade-gamepad",
+      "era": "2000er",
+      "genre": "Videospiele",
+      "group": "Film & Games",
+      "extraCategories": [
+        "title",
+        "year"
+      ]
+    },
+    {
+      "id": "tarantino",
+      "name": "Tarantino",
+      "description": "Songs aus den Filmen von Quentin Tarantino.",
+      "theme": "grindhouse-film",
+      "era": "1950er–2010er",
+      "genre": "Soundtrack",
+      "group": "Film & Games",
+      "extraCategories": [
+        "title",
+        "year"
+      ]
+    },
+    {
+      "id": "gnr",
+      "name": "Galaxy News Radio",
+      "description": "Die Songs von Galaxy News Radio aus Fallout 3, moderiert von Three Dog.",
+      "theme": "pipboy-radio",
+      "era": "1930er–1950er",
+      "genre": "Swing & Oldies",
+      "group": "Film & Games",
+      "extraCategories": [
+        "title",
+        "year"
+      ]
     },
     {
       "id": "test",
@@ -30,7 +162,8 @@
       "description": "Testrunde",
       "theme": "turntable-orange",
       "era": "2000er–2020er",
-      "genre": "Deutschrap"
+      "genre": "Deutschrap",
+      "group": "Deutschrap"
     },
     {
       "id": "testlauf",
@@ -38,226 +171,11 @@
       "description": "Testlauf",
       "theme": "dictaphone-red",
       "era": "Testlauf",
-      "genre": "Deutschrap"
+      "genre": "Deutschrap",
+      "group": "Deutschrap"
     }
   ],
   "songs": [
-    {
-      "id": "2000er-001",
-      "poolId": "2000er",
-      "spotifyTrackId": "003vvx7Niy0yvhvHt4a68B",
-      "title": "Mr. Brightside",
-      "artist": "The Killers",
-      "album": "Hot Fuss",
-      "year": 2004
-    },
-    {
-      "id": "2000er-002",
-      "poolId": "2000er",
-      "spotifyTrackId": "2PpruBYCo4H7WOBJ7Q2EwM",
-      "title": "Hey Ya!",
-      "artist": "OutKast",
-      "album": "Speakerboxxx / The Love Below",
-      "year": 2003
-    },
-    {
-      "id": "2000er-003",
-      "poolId": "2000er",
-      "spotifyTrackId": "7iL6o9tox1zgHpKUfh9vuC",
-      "title": "In Da Club",
-      "artist": "50 Cent",
-      "album": "Get Rich or Die Tryin'",
-      "year": 2003
-    },
-    {
-      "id": "2000er-004",
-      "poolId": "2000er",
-      "spotifyTrackId": "5IVuqXILoxVWvWEPm82Jxr",
-      "title": "Crazy in Love (feat. Jay-Z)",
-      "artist": "Beyoncé",
-      "album": "Dangerously in Love",
-      "year": 2003
-    },
-    {
-      "id": "2000er-005",
-      "poolId": "2000er",
-      "spotifyTrackId": "3ZFTkvIE7kyPt6Nu3PEa7V",
-      "title": "Hips Don't Lie (feat. Wyclef Jean)",
-      "artist": "Shakira",
-      "album": "Oral Fixation, Vol. 2",
-      "year": 2006
-    },
-    {
-      "id": "2000er-006",
-      "poolId": "2000er",
-      "spotifyTrackId": "2y4lAQpi5Z1tU-xXjqkic4",
-      "title": "Umbrella",
-      "artist": "Rihanna",
-      "album": "Good Girl Gone Bad",
-      "year": 2007
-    },
-    {
-      "id": "2000er-007",
-      "poolId": "2000er",
-      "spotifyTrackId": "1mea3bSkSGXuIRvnydlB5b",
-      "title": "Viva La Vida",
-      "artist": "Coldplay",
-      "album": "Viva La Vida or Death and All His Friends",
-      "year": 2008
-    },
-    {
-      "id": "2000er-008",
-      "poolId": "2000er",
-      "spotifyTrackId": "0c6xIDDpzE81m2q797ordA",
-      "title": "Poker Face",
-      "artist": "Lady Gaga",
-      "album": "The Fame",
-      "year": 2008
-    },
-    {
-      "id": "2010er-001",
-      "poolId": "2010er",
-      "spotifyTrackId": "1c8gk2PeTE04A1pIDH9YMk",
-      "title": "Rolling in the Deep",
-      "artist": "Adele",
-      "album": "21",
-      "year": 2010
-    },
-    {
-      "id": "2010er-002",
-      "poolId": "2010er",
-      "spotifyTrackId": "2Foc5Q5nqNiosCNqttzHof",
-      "title": "Get Lucky (feat. Pharrell Williams & Nile Rodgers)",
-      "artist": "Daft Punk",
-      "album": "Random Access Memories",
-      "year": 2013
-    },
-    {
-      "id": "2010er-003",
-      "poolId": "2010er",
-      "spotifyTrackId": "60nZcImufyMA1MKQY3dcCH",
-      "title": "Happy",
-      "artist": "Pharrell Williams",
-      "album": "G I R L",
-      "year": 2013
-    },
-    {
-      "id": "2010er-004",
-      "poolId": "2010er",
-      "spotifyTrackId": "32OlwWuMpZ6b0aN2RZOeMS",
-      "title": "Uptown Funk (feat. Bruno Mars)",
-      "artist": "Mark Ronson",
-      "album": "Uptown Special",
-      "year": 2014
-    },
-    {
-      "id": "2010er-005",
-      "poolId": "2010er",
-      "spotifyTrackId": "7qiZfU4dY1lWllzX7mPBI3",
-      "title": "Shape of You",
-      "artist": "Ed Sheeran",
-      "album": "÷ (Divide)",
-      "year": 2017
-    },
-    {
-      "id": "2010er-006",
-      "poolId": "2010er",
-      "spotifyTrackId": "0VjIjW4GlUZAMYd2vXMi3b",
-      "title": "Blinding Lights",
-      "artist": "The Weeknd",
-      "album": "After Hours",
-      "year": 2019
-    },
-    {
-      "id": "2010er-007",
-      "poolId": "2010er",
-      "spotifyTrackId": "3bidbhpOYeV4knp8AIu8Xn",
-      "title": "Can't Hold Us (feat. Ray Dalton)",
-      "artist": "Macklemore & Ryan Lewis",
-      "album": "The Heist",
-      "year": 2012
-    },
-    {
-      "id": "2010er-008",
-      "poolId": "2010er",
-      "spotifyTrackId": "2Fxmhks0bxGSBdJ92vMHuM",
-      "title": "bad guy",
-      "artist": "Billie Eilish",
-      "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
-      "year": 2019
-    },
-    {
-      "id": "2020er-001",
-      "poolId": "2020er",
-      "spotifyTrackId": "4Dvkj6JhhA12EX05fT7y2e",
-      "title": "As It Was",
-      "artist": "Harry Styles",
-      "album": "Harry's House",
-      "year": 2022
-    },
-    {
-      "id": "2020er-002",
-      "poolId": "2020er",
-      "spotifyTrackId": "0yLdNVQF3LsmkwsbUVsT2X",
-      "title": "Flowers",
-      "artist": "Miley Cyrus",
-      "album": "Endless Summer Vacation",
-      "year": 2023
-    },
-    {
-      "id": "2020er-003",
-      "poolId": "2020er",
-      "spotifyTrackId": "5nujrmhLynf4yMoMtj8AQH",
-      "title": "Levitating (feat. DaBaby)",
-      "artist": "Dua Lipa",
-      "album": "Future Nostalgia",
-      "year": 2020
-    },
-    {
-      "id": "2020er-004",
-      "poolId": "2020er",
-      "spotifyTrackId": "5HCyWlXZPP0y6Gqq8TgA20",
-      "title": "STAY (with Justin Bieber)",
-      "artist": "The Kid LAROI",
-      "album": "F*CK LOVE 3: OVER YOU",
-      "year": 2021
-    },
-    {
-      "id": "2020er-005",
-      "poolId": "2020er",
-      "spotifyTrackId": "4ZtFanR9U6ndgddUvNcjcG",
-      "title": "good 4 u",
-      "artist": "Olivia Rodrigo",
-      "album": "SOUR",
-      "year": 2021
-    },
-    {
-      "id": "2020er-006",
-      "poolId": "2020er",
-      "spotifyTrackId": "02MWAaffLxlfxAUY7c5dvx",
-      "title": "Heat Waves",
-      "artist": "Glass Animals",
-      "album": "Dreamland",
-      "year": 2020
-    },
-    {
-      "id": "2020er-007",
-      "poolId": "2020er",
-      "spotifyTrackId": "0V3wPSX9ygBnCm8psDIegu",
-      "title": "Anti-Hero",
-      "artist": "Taylor Swift",
-      "album": "Midnights",
-      "year": 2022
-    },
-    {
-      "id": "2020er-008",
-      "poolId": "2020er",
-      "spotifyTrackId": "2qSkIjg1o9h3YT9RAgYN75",
-      "title": "Espresso",
-      "artist": "Sabrina Carpenter",
-      "album": "Short n' Sweet",
-      "year": 2024
-    },
     {
       "id": "test-001",
       "poolId": "test",
@@ -437,6 +355,2856 @@
       "album": "0,9 (Deluxe Version)",
       "year": 2016,
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a0bd113bf296b83276d1372d"
+    },
+    {
+      "id": "60er-001",
+      "poolId": "60er",
+      "spotifyTrackId": "1eT2CjXwFXNx6oY5ydvzKU",
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "album": "Love",
+      "year": 1968,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27330503dbc30e621c96913379b"
+    },
+    {
+      "id": "60er-002",
+      "poolId": "60er",
+      "spotifyTrackId": "2PzU4IB8Dr6mxV3lHuaG34",
+      "title": "(I Can't Get No) Satisfaction",
+      "artist": "The Rolling Stones",
+      "album": "Out Of Our Heads",
+      "year": 1965,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27305c5be85b64eaff732f7cb0b"
+    },
+    {
+      "id": "60er-003",
+      "poolId": "60er",
+      "spotifyTrackId": "7s25THrKz86DM225dOYwnr",
+      "title": "Respect",
+      "artist": "Aretha Franklin",
+      "album": "I Never Loved a Man the Way I Love You",
+      "year": 1967,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736aa9314b7ddfbd8f036ba3ac"
+    },
+    {
+      "id": "60er-004",
+      "poolId": "60er",
+      "spotifyTrackId": "745H5CctFr12Mo7cqa1BMH",
+      "title": "My Girl",
+      "artist": "The Temptations",
+      "album": "The Temptations Sing Smokey",
+      "year": 1964,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731a5b6271ae1c8497df20916e"
+    },
+    {
+      "id": "60er-005",
+      "poolId": "60er",
+      "spotifyTrackId": "6ekY52h4HwNCHgCkiHTVaR",
+      "title": "Good Vibrations",
+      "artist": "The Beach Boys",
+      "album": "Smiley Smile (Mono & Stereo)",
+      "year": 1966,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739c4ab43fd03ed82bc2314eb0"
+    },
+    {
+      "id": "60er-006",
+      "poolId": "60er",
+      "spotifyTrackId": "5uvosCdMlFdTXhoazkTI5R",
+      "title": "Light My Fire",
+      "artist": "The Doors",
+      "album": "The Doors",
+      "year": 1967,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27300d037dd3dfb578da4692088"
+    },
+    {
+      "id": "60er-007",
+      "poolId": "60er",
+      "spotifyTrackId": "20US4JIykUvnFpxMXp0lWv",
+      "title": "Purple Haze",
+      "artist": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "year": 1967,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738d0212a10cc2d93289d29b32"
+    },
+    {
+      "id": "60er-008",
+      "poolId": "60er",
+      "spotifyTrackId": "0iOZM63lendWRTTeKhZBSC",
+      "title": "Mrs. Robinson",
+      "artist": "Simon & Garfunkel",
+      "album": "Bookends",
+      "year": 1968,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e67cbc6061edcdaa6f0cf570"
+    },
+    {
+      "id": "60er-009",
+      "poolId": "60er",
+      "spotifyTrackId": "6FRwDxXsvSasw0y2eDArsz",
+      "title": "Sunshine Of Your Love",
+      "artist": "Cream",
+      "album": "Disraeli Gears",
+      "year": 1967,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f7d3ba2473d4452b83ba61c4"
+    },
+    {
+      "id": "60er-010",
+      "poolId": "60er",
+      "spotifyTrackId": "63T7DJ1AFDD6Bn8VzG6JE8",
+      "title": "Paint It, Black",
+      "artist": "The Rolling Stones",
+      "album": "Aftermath",
+      "year": 1966,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bad7062c3fd2f2d037989694"
+    },
+    {
+      "id": "60er-011",
+      "poolId": "60er",
+      "spotifyTrackId": "3AhXZa8sUQht0UEdBJgpGc",
+      "title": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "year": 1965,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730cb0884829c5503b2e242541"
+    },
+    {
+      "id": "60er-012",
+      "poolId": "60er",
+      "spotifyTrackId": "29U7stRjqHU6rMiS8BfaI9",
+      "title": "What a Wonderful World",
+      "artist": "Louis Armstrong",
+      "album": "What A Wonderful World",
+      "year": 1967,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273845a5660b804e5f3e821fbed"
+    },
+    {
+      "id": "60er-013",
+      "poolId": "60er",
+      "spotifyTrackId": "5ZBeML7Lf3FMEVviTyvi8l",
+      "title": "Twist And Shout",
+      "artist": "The Beatles",
+      "album": "Please Please Me",
+      "year": 1963,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dbeec63ad914c973e75c24df"
+    },
+    {
+      "id": "60er-014",
+      "poolId": "60er",
+      "spotifyTrackId": "5haXbSJqjjM0TCJ5XkfEaC",
+      "title": "I Got You (I Feel Good)",
+      "artist": "James Brown",
+      "album": "I Got You (I Feel Good)",
+      "year": 1964,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c813101657895c26f990b719"
+    },
+    {
+      "id": "60er-015",
+      "poolId": "60er",
+      "spotifyTrackId": "4s6LhHAV5SEsOV0lC2tjvJ",
+      "title": "California Dreamin'",
+      "artist": "The Mamas & The Papas",
+      "album": "If You Can Believe Your Eyes & Ears",
+      "year": 1965,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27308181b9f840a06e7a071cf72"
+    },
+    {
+      "id": "60er-016",
+      "poolId": "60er",
+      "spotifyTrackId": "30gux5mcQNtDSg7fZDkHRF",
+      "title": "House of the Rising Sun",
+      "artist": "The Animals",
+      "album": "The Animals",
+      "year": 1964,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a08d2d2c8b2bd06d1fda6d4"
+    },
+    {
+      "id": "60er-017",
+      "poolId": "60er",
+      "spotifyTrackId": "01jOnfF6OMQx2ZgC3nKi3o",
+      "title": "Oh, Pretty Woman",
+      "artist": "Roy Orbison",
+      "album": "A Love So Beautiful: Roy Orbison & The Royal Philharmonic Orchestra",
+      "year": 1964,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a6c30b7cf33854f0c0f6bb2"
+    },
+    {
+      "id": "60er-018",
+      "poolId": "60er",
+      "spotifyTrackId": "3zBhihYUHBmGd2bcQIobrF",
+      "title": "(Sittin' On) The Dock Of The Bay",
+      "artist": "Otis Redding",
+      "album": "The Dock of the Bay (Mono)",
+      "year": 1968,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730acddc8ccf8d14858fbeddf5"
+    },
+    {
+      "id": "60er-019",
+      "poolId": "60er",
+      "spotifyTrackId": "3lN8PP6R2IxbLP05QpYXng",
+      "title": "Born To Be Wild",
+      "artist": "Steppenwolf",
+      "album": "Steppenwolf",
+      "year": 1968,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2aacda30b100cc33d523be0"
+    },
+    {
+      "id": "60er-020",
+      "poolId": "60er",
+      "spotifyTrackId": "5Onbl6xDntoo88qMqVx377",
+      "title": "Space Oddity",
+      "artist": "David Bowie",
+      "album": "Space Oddity",
+      "year": 1969,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734384bb5ba2d28c7bbb6f7c49"
+    },
+    {
+      "id": "60er-021",
+      "poolId": "60er",
+      "spotifyTrackId": "2EqlS6tkEnglzr7tkKAAYD",
+      "title": "Come Together",
+      "artist": "The Beatles",
+      "album": "Abbey Road",
+      "year": 1969,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25"
+    },
+    {
+      "id": "60er-022",
+      "poolId": "60er",
+      "spotifyTrackId": "4BP3uh0hFLFRb5cjsgLqDh",
+      "title": "Fortunate Son",
+      "artist": "Creedence Clearwater Revival",
+      "album": "Willy And The Poor Boys",
+      "year": 1969,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739f39192f9f8ca1c90847b3e5"
+    },
+    {
+      "id": "60er-023",
+      "poolId": "60er",
+      "spotifyTrackId": "7jGzYUZ2Bgg8BDfYlQRfn8",
+      "title": "Wild Thing",
+      "artist": "The Troggs",
+      "album": "From Nowhere",
+      "year": 1966,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27327b24620f0b3b592472552f5"
+    },
+    {
+      "id": "60er-024",
+      "poolId": "60er",
+      "spotifyTrackId": "6tZdL3Zp8JgrfDbsSeSV1S",
+      "title": "You Really Got Me",
+      "artist": "The Kinks",
+      "album": "Kinks",
+      "year": 1964,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733b662e4bab01440eb4f31793"
+    },
+    {
+      "id": "60er-025",
+      "poolId": "60er",
+      "spotifyTrackId": "1H5IfYyIIAlgDX8zguUzns",
+      "title": "Suspicious Minds",
+      "artist": "Elvis Presley",
+      "album": "From Elvis in Memphis",
+      "year": 1969,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b26c34d79e4cdaa73672a0b1"
+    },
+    {
+      "id": "70er-001",
+      "poolId": "70er",
+      "spotifyTrackId": "2JiDi0qAXsPwhPqA2qaKGt",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "album": "A Night At The Opera",
+      "year": 1975,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fdab4a163ab9f6db72c952ee"
+    },
+    {
+      "id": "70er-002",
+      "poolId": "70er",
+      "spotifyTrackId": "7llNWna9CEKr88Ng4vAwiI",
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin IV",
+      "year": 1971,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69"
+    },
+    {
+      "id": "70er-003",
+      "poolId": "70er",
+      "spotifyTrackId": "40riOy7x9W7GXjyGp4pjAv",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "album": "Hotel California",
+      "year": 1976,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778"
+    },
+    {
+      "id": "70er-004",
+      "poolId": "70er",
+      "spotifyTrackId": "0GjEhVFGZW8afUYGChu3Rr",
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "album": "Arrival",
+      "year": 1976,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0"
+    },
+    {
+      "id": "70er-005",
+      "poolId": "70er",
+      "spotifyTrackId": "2Lz4iCypeUTy62CP3Xwk6i",
+      "title": "Stayin' Alive",
+      "artist": "Bee Gees",
+      "album": "Bee Gees Blanket the World",
+      "year": 1977,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c93a2d859ee3635aa415d61d"
+    },
+    {
+      "id": "70er-006",
+      "poolId": "70er",
+      "spotifyTrackId": "7pKfPomDEeI4TPT6EOYjn9",
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "album": "Imagine",
+      "year": 1971,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27399581550ef9746ca582bb3cc"
+    },
+    {
+      "id": "70er-007",
+      "poolId": "70er",
+      "spotifyTrackId": "5MMnwYs0hIxkENRsbkWJ2G",
+      "title": "Smoke on the Water",
+      "artist": "Deep Purple",
+      "album": "Machine Head",
+      "year": 1972,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a729c9c3dec04b99d889c66f"
+    },
+    {
+      "id": "70er-008",
+      "poolId": "70er",
+      "spotifyTrackId": "7iN1s7xHE4ifF5povM6A48",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "album": "Let It Be",
+      "year": 1970,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27384243a01af3c77b56fe01ab1"
+    },
+    {
+      "id": "70er-009",
+      "poolId": "70er",
+      "spotifyTrackId": "4N0TP4Rmj6QQezWV88ARNJ",
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "album": "Talking Book",
+      "year": 1972,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a14b08b9a6616e121df5e8b0"
+    },
+    {
+      "id": "70er-010",
+      "poolId": "70er",
+      "spotifyTrackId": "2zYzyRzz6pRmhPzyfMEC8s",
+      "title": "Highway to Hell",
+      "artist": "AC/DC",
+      "album": "Highway to Hell",
+      "year": 1979,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27343058ea096fa35ac33c43587"
+    },
+    {
+      "id": "70er-011",
+      "poolId": "70er",
+      "spotifyTrackId": "4gMgiXfqyzZLMhsksGmbQV",
+      "title": "Another Brick in the Wall, Pt. 2",
+      "artist": "Pink Floyd",
+      "album": "The Wall",
+      "year": 1979,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b694e89ba937dd2631ff584c"
+    },
+    {
+      "id": "70er-012",
+      "poolId": "70er",
+      "spotifyTrackId": "7rIovIsXE6kMn629b7kDig",
+      "title": "I Will Survive",
+      "artist": "Gloria Gaynor",
+      "album": "Love Tracks",
+      "year": 1978,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732a1049b6d0d2b4c3c0abe7a8"
+    },
+    {
+      "id": "70er-013",
+      "poolId": "70er",
+      "spotifyTrackId": "5p3JunprHCxClJjOmcLV8G",
+      "title": "Walk on the Wild Side",
+      "artist": "Lou Reed",
+      "album": "Transformer",
+      "year": 1972,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fe5213edd4f8550a8030efcf"
+    },
+    {
+      "id": "70er-014",
+      "poolId": "70er",
+      "spotifyTrackId": "3ZE3wv8V3w2T2f7nOCjV0N",
+      "title": "Life on Mars?",
+      "artist": "David Bowie",
+      "album": "Hunky Dory",
+      "year": 1971,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e464904cc3fed2b40fc55120"
+    },
+    {
+      "id": "70er-015",
+      "poolId": "70er",
+      "spotifyTrackId": "6hTcuIQa0sxrrByu9wTD7s",
+      "title": "Born to Run",
+      "artist": "Bruce Springsteen",
+      "album": "Born To Run",
+      "year": 1975,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738c5b6f7dcdc5817dc5050b2a"
+    },
+    {
+      "id": "70er-016",
+      "poolId": "70er",
+      "spotifyTrackId": "3kXoKlD84c6OmIcOLfrfEs",
+      "title": "September",
+      "artist": "Earth, Wind & Fire",
+      "album": "September (sped up + slowed)",
+      "year": 1978,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730faf2fc17446651865ce2282"
+    },
+    {
+      "id": "70er-017",
+      "poolId": "70er",
+      "spotifyTrackId": "7Kszjzps0xbQXyo1pO4KfE",
+      "title": "Le Freak",
+      "artist": "CHIC",
+      "album": "C'est Chic",
+      "year": 1978,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e37d5190acaf635f06cfcc4b"
+    },
+    {
+      "id": "70er-018",
+      "poolId": "70er",
+      "spotifyTrackId": "1NHWG8zxSEypSRF3UufrnO",
+      "title": "Don't Stop Me Now",
+      "artist": "Queen",
+      "album": "Jazz",
+      "year": 1978,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c03b757ece416e014feef5e"
+    },
+    {
+      "id": "70er-019",
+      "poolId": "70er",
+      "spotifyTrackId": "7e89621JPkKaeDSTQ3avtg",
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Second Helping",
+      "year": 1974,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27317e1907923e91181f38290ac"
+    },
+    {
+      "id": "70er-020",
+      "poolId": "70er",
+      "spotifyTrackId": "1YYhDizHx7PnDhAhko6cDS",
+      "title": "Take Me Home, Country Roads",
+      "artist": "John Denver",
+      "album": "Poems, Prayers and Promises",
+      "year": 1971,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273795c9ba853f5a9f7a88b4e31"
+    },
+    {
+      "id": "70er-021",
+      "poolId": "70er",
+      "spotifyTrackId": "2kkvB3RNRzwjFdGhaUA0tz",
+      "title": "Layla",
+      "artist": "Derek & The Dominos",
+      "album": "Layla And Other Assorted Love Songs",
+      "year": 1970,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fbcaf7402f38faac27610efc"
+    },
+    {
+      "id": "70er-022",
+      "poolId": "70er",
+      "spotifyTrackId": "3gdewACMIVMEWVbyb8O9sY",
+      "title": "Rocket Man",
+      "artist": "Elton John",
+      "album": "Honky Chateau",
+      "year": 1972,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733009007708ab5134936a58b3"
+    },
+    {
+      "id": "70er-023",
+      "poolId": "70er",
+      "spotifyTrackId": "4v2rkl1mC3zVAz0nXMx9r4",
+      "title": "Heart Of Glass",
+      "artist": "Blondie",
+      "album": "Parallel Lines",
+      "year": 1978,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ace2bedb8e6cfa04207d5c0f"
+    },
+    {
+      "id": "70er-024",
+      "poolId": "70er",
+      "spotifyTrackId": "3Jnxngdff0lVu2rza1GVx6",
+      "title": "Paranoid",
+      "artist": "Black Sabbath",
+      "album": "Paranoid",
+      "year": 1970,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273605b25c031f809d78054a13c"
+    },
+    {
+      "id": "70er-025",
+      "poolId": "70er",
+      "spotifyTrackId": "6HSXNV0b4M4cLJ7ljgVVeh",
+      "title": "Knockin' On Heaven's Door",
+      "artist": "Bob Dylan",
+      "album": "Pat Garrett & Billy The Kid (Soundtrack From The Motion Picture)",
+      "year": 1973,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c86683d20c72e3874c11c6d"
+    },
+    {
+      "id": "80er-001",
+      "poolId": "80er",
+      "spotifyTrackId": "7J1uxwnxfQLu4APicE5Rnj",
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "year": 1982,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5"
+    },
+    {
+      "id": "80er-002",
+      "poolId": "80er",
+      "spotifyTrackId": "2WfaOiMkCvy7F5fcp2zZ8L",
+      "title": "Take On Me",
+      "artist": "a-ha",
+      "album": "Hunting High and Low",
+      "year": 1985,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e8dd4db47e7177c63b0b7d53"
+    },
+    {
+      "id": "80er-003",
+      "poolId": "80er",
+      "spotifyTrackId": "1TfqLAPs4K3s2rJMoCokcS",
+      "title": "Sweet Dreams (Are Made Of This)",
+      "artist": "Eurythmics",
+      "album": "Sweet Dreams (Are Made Of This)",
+      "year": 1983,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b3994c94dfb241923664bb4d"
+    },
+    {
+      "id": "80er-004",
+      "poolId": "80er",
+      "spotifyTrackId": "1JSTJqkT5qHq8MDJnJbRE1",
+      "title": "Every Breath You Take",
+      "artist": "The Police",
+      "album": "Synchronicity",
+      "year": 1983,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8e97cafeb2acb85b21a777e"
+    },
+    {
+      "id": "80er-005",
+      "poolId": "80er",
+      "spotifyTrackId": "4y1LsJpmMti1PfRQV9AWWe",
+      "title": "Girls Just Want to Have Fun",
+      "artist": "Cyndi Lauper",
+      "album": "She's So Unusual",
+      "year": 1983,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ce023ce7dfdd5199bcdfd5a1"
+    },
+    {
+      "id": "80er-006",
+      "poolId": "80er",
+      "spotifyTrackId": "37ZJ0p5Jm13JPevGcx4SkF",
+      "title": "Livin' On A Prayer",
+      "artist": "Bon Jovi",
+      "album": "Slippery When Wet",
+      "year": 1986,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac"
+    },
+    {
+      "id": "80er-007",
+      "poolId": "80er",
+      "spotifyTrackId": "5JGEAz15LkPoOtFHttDtVs",
+      "title": "With or Without You",
+      "artist": "U2",
+      "album": "The Joshua Tree",
+      "year": 1987,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2e8f804c2cdd5b3815adbf9"
+    },
+    {
+      "id": "80er-008",
+      "poolId": "80er",
+      "spotifyTrackId": "2v7ywbUzCgcVohHaKUcacV",
+      "title": "Like a Prayer",
+      "artist": "Madonna",
+      "album": "Like a Prayer",
+      "year": 1989,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273744ce5f9db16330eb4027f26"
+    },
+    {
+      "id": "80er-009",
+      "poolId": "80er",
+      "spotifyTrackId": "4PTG3Z6ehGkBFwjybzWkR8",
+      "title": "Never Gonna Give You Up",
+      "artist": "Rick Astley",
+      "album": "Whenever You Need Somebody",
+      "year": 1987,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27315ebbedaacef61af244262a8"
+    },
+    {
+      "id": "80er-010",
+      "poolId": "80er",
+      "spotifyTrackId": "2374M0fQpWi3dLnB54qaLX",
+      "title": "Africa",
+      "artist": "TOTO",
+      "album": "Toto IV",
+      "year": 1982,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ebd6d20c0082524244ef83df"
+    },
+    {
+      "id": "80er-011",
+      "poolId": "80er",
+      "spotifyTrackId": "7lrVEKB5tZdDciy1PZaf4z",
+      "title": "Don't You (Forget About Me)",
+      "artist": "Simple Minds",
+      "album": "Once Upon A Time",
+      "year": 1985,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735695a657aef0e81bde0c6001"
+    },
+    {
+      "id": "80er-012",
+      "poolId": "80er",
+      "spotifyTrackId": "0ikz6tENMONtK6qGkOrU3c",
+      "title": "Wake Me Up Before You Go-Go",
+      "artist": "Wham!",
+      "album": "Make It Big",
+      "year": 1984,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a2fc41b0dd6ce4f0d16a4c46"
+    },
+    {
+      "id": "80er-013",
+      "poolId": "80er",
+      "spotifyTrackId": "1uvyZBs4IZYRebHIB1747m",
+      "title": "Purple Rain",
+      "artist": "Prince",
+      "album": "Purple Rain",
+      "year": 1984,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738a2ce3f148f57584269c3782"
+    },
+    {
+      "id": "80er-014",
+      "poolId": "80er",
+      "spotifyTrackId": "7snQQk1zcKl8gZ92AnueZW",
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "year": 1987,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5"
+    },
+    {
+      "id": "80er-015",
+      "poolId": "80er",
+      "spotifyTrackId": "2LlQb7Uoj1kKyGhlkBf9aC",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "year": 1982,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5"
+    },
+    {
+      "id": "80er-016",
+      "poolId": "80er",
+      "spotifyTrackId": "2HHtWyy5CgaQbC7XSoOb0e",
+      "title": "Eye of the Tiger",
+      "artist": "Survivor",
+      "album": "Eye Of The Tiger",
+      "year": 1982,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734e2755e7a96ec5e062c76aac"
+    },
+    {
+      "id": "80er-017",
+      "poolId": "80er",
+      "spotifyTrackId": "5RKQ5NdjSh2QzD4MaunT91",
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "album": "Escape",
+      "year": 1981,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27323290120a609a65e14cfe018"
+    },
+    {
+      "id": "80er-018",
+      "poolId": "80er",
+      "spotifyTrackId": "2nrG5UtAcqXbYttu7MXP1p",
+      "title": "Under Pressure",
+      "artist": "Queen",
+      "album": "Hot Space",
+      "year": 1981,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27344c0a9843fac69db4d56d14e"
+    },
+    {
+      "id": "80er-019",
+      "poolId": "80er",
+      "spotifyTrackId": "5L6HNuXN71bfeuKXYtRasF",
+      "title": "Walk Like an Egyptian",
+      "artist": "The Bangles",
+      "album": "Different Light",
+      "year": 1986,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6"
+    },
+    {
+      "id": "80er-020",
+      "poolId": "80er",
+      "spotifyTrackId": "7iN2AiwBr3FKuloMzDjIQO",
+      "title": "Tainted Love",
+      "artist": "Soft Cell",
+      "album": "Non-Stop Erotic Cabaret",
+      "year": 1981,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c25f1af712bb95fed52ed422"
+    },
+    {
+      "id": "80er-021",
+      "poolId": "80er",
+      "spotifyTrackId": "0O9OPv8X9O3zXLmckWcUtO",
+      "title": "Blue Monday",
+      "artist": "New Order",
+      "album": "Blue Monday",
+      "year": 1983,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739be2cac5bfa5b6f6cf567310"
+    },
+    {
+      "id": "80er-022",
+      "poolId": "80er",
+      "spotifyTrackId": "2R7858bg0GHuBBxjTyOL7N",
+      "title": "Careless Whisper",
+      "artist": "George Michael",
+      "album": "The Final",
+      "year": 1984,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ee44e3a23aaaa941f7adb48d"
+    },
+    {
+      "id": "80er-023",
+      "poolId": "80er",
+      "spotifyTrackId": "3XDeeP9wBZzGhIPZmLfEEx",
+      "title": "Karma Chameleon",
+      "artist": "Culture Club",
+      "album": "Colour By Numbers",
+      "year": 1983,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273784f3d22b1b28313311acd2a"
+    },
+    {
+      "id": "80er-024",
+      "poolId": "80er",
+      "spotifyTrackId": "2IJftBfq7pJ43tfnOR0RB3",
+      "title": "99 Luftballons",
+      "artist": "Nena",
+      "album": "Nena",
+      "year": 1983,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737e51ffd6a2e8f77ffd56bb8f"
+    },
+    {
+      "id": "80er-025",
+      "poolId": "80er",
+      "spotifyTrackId": "4Zc7TCHzuNwL0AFBlyLdyr",
+      "title": "Run to the Hills",
+      "artist": "Iron Maiden",
+      "album": "The Number of the Beast",
+      "year": 1982,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735c29a88ba5341ca428f0c322"
+    },
+    {
+      "id": "90er-001",
+      "poolId": "90er",
+      "spotifyTrackId": "4CeeEOM32jQcH3eN9Q2dGj",
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "year": 1991,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fbc71c99f9c1296c56dd51b6"
+    },
+    {
+      "id": "90er-002",
+      "poolId": "90er",
+      "spotifyTrackId": "1qPbGZqppFwLwcBC1JQ6Vr",
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "album": "(What's The Story) Morning Glory?",
+      "year": 1995,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732f2eeee9b405f4d00428d84c"
+    },
+    {
+      "id": "90er-003",
+      "poolId": "90er",
+      "spotifyTrackId": "3MjUtNVVq3C8Fn0MP3zhXa",
+      "title": "...Baby One More Time",
+      "artist": "Britney Spears",
+      "album": "...Baby One More Time",
+      "year": 1998,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27336cf58e3e7cf36a145b1da18"
+    },
+    {
+      "id": "90er-004",
+      "poolId": "90er",
+      "spotifyTrackId": "47BBI51FKFwOMlIiX6m8ya",
+      "title": "I Want It That Way",
+      "artist": "Backstreet Boys",
+      "album": "Millennium",
+      "year": 1999,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732160c02bc56f192df0f4986b"
+    },
+    {
+      "id": "90er-005",
+      "poolId": "90er",
+      "spotifyTrackId": "1Je1IMUlBXcx1Fz0WE7oPT",
+      "title": "Wannabe",
+      "artist": "Spice Girls",
+      "album": "Spice",
+      "year": 1996,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27363facc42e4a35eb3aa182b59"
+    },
+    {
+      "id": "90er-006",
+      "poolId": "90er",
+      "spotifyTrackId": "1KGi9sZVMeszgZOWivFpxs",
+      "title": "No Scrubs",
+      "artist": "TLC",
+      "album": "Fanmail",
+      "year": 1999,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361ffafd5e31a37336531cf95"
+    },
+    {
+      "id": "90er-007",
+      "poolId": "90er",
+      "spotifyTrackId": "6qspW4YKycviDFjHBOaqUY",
+      "title": "Waterfalls",
+      "artist": "TLC",
+      "album": "Crazysexycool",
+      "year": 1994,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733ae63e3e2d9da8366e33fdab"
+    },
+    {
+      "id": "90er-008",
+      "poolId": "90er",
+      "spotifyTrackId": "1DIXPcTDzTj8ZMHt3PDt8p",
+      "title": "Gangsta's Paradise",
+      "artist": "Coolio",
+      "album": "Gangsta's Paradise",
+      "year": 1995,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737438996f6fe67c59d75d4e43"
+    },
+    {
+      "id": "90er-009",
+      "poolId": "90er",
+      "spotifyTrackId": "6bCPryuQjsts5cEybA3Nb5",
+      "title": "Losing My Religion",
+      "artist": "R.E.M.",
+      "album": "Out Of Time",
+      "year": 1991,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d766cd2d2bb125f58ef22c22"
+    },
+    {
+      "id": "90er-010",
+      "poolId": "90er",
+      "spotifyTrackId": "70LcF31zb1H0PyJoS1Sx1r",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "album": "Pablo Honey",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d"
+    },
+    {
+      "id": "90er-011",
+      "poolId": "90er",
+      "spotifyTrackId": "1Jaah2tmN9Hv81A87KZ1MU",
+      "title": "Torn",
+      "artist": "Natalie Imbruglia",
+      "album": "Left Of The Middle",
+      "year": 1997,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27384bb2b1e87d5ba0bac8871a2"
+    },
+    {
+      "id": "90er-012",
+      "poolId": "90er",
+      "spotifyTrackId": "1di1BEgJYzPvXUuinsYJGP",
+      "title": "Everybody (Backstreet's Back)",
+      "artist": "Backstreet Boys",
+      "album": "Backstreet's Back",
+      "year": 1997,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273530cec85d4543693bd726167"
+    },
+    {
+      "id": "90er-013",
+      "poolId": "90er",
+      "spotifyTrackId": "3SFXsFpeGmBTtQvKiwYMDA",
+      "title": "Pretty Fly (For A White Guy)",
+      "artist": "The Offspring",
+      "album": "Americana",
+      "year": 1998,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cbd2ee7dff77bfb2b5f0af52"
+    },
+    {
+      "id": "90er-014",
+      "poolId": "90er",
+      "spotifyTrackId": "3gjHnylel3PTRpjS44ocqr",
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "album": "No Need To Argue",
+      "year": 1994,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320a28883cdd0fc7d5f85a9a9"
+    },
+    {
+      "id": "90er-015",
+      "poolId": "90er",
+      "spotifyTrackId": "4xdHI4eFNst0vTZuuKrWjr",
+      "title": "Black Hole Sun",
+      "artist": "Soundgarden",
+      "album": "Superunknown",
+      "year": 1994,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735124ed45a94033830b320500"
+    },
+    {
+      "id": "90er-016",
+      "poolId": "90er",
+      "spotifyTrackId": "3FUS56gKr9mVBmzvlnodlh",
+      "title": "Killing In The Name",
+      "artist": "Rage Against The Machine",
+      "album": "Rage Against The Machine",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ee4644e12bef70636167c6bd"
+    },
+    {
+      "id": "90er-017",
+      "poolId": "90er",
+      "spotifyTrackId": "6L89mwZXSOwYl76YXfX13s",
+      "title": "Basket Case",
+      "artist": "Green Day",
+      "album": "Dookie",
+      "year": 1994,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d"
+    },
+    {
+      "id": "90er-018",
+      "poolId": "90er",
+      "spotifyTrackId": "5npMYgysWSKOIVXj2szeLn",
+      "title": "Vogue",
+      "artist": "Madonna",
+      "album": "I'm Breathless",
+      "year": 1990,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a9054a6256c08c0bb53ef9e0"
+    },
+    {
+      "id": "90er-019",
+      "poolId": "90er",
+      "spotifyTrackId": "11d9oUiwHuYt216EFA2tiz",
+      "title": "Ice Ice Baby",
+      "artist": "Vanilla Ice",
+      "album": "To The Extreme",
+      "year": 1990,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734bb0c02f38a183d19b410662"
+    },
+    {
+      "id": "90er-020",
+      "poolId": "90er",
+      "spotifyTrackId": "1B75hgRqe7A4fwee3g3Wmu",
+      "title": "U Can't Touch This",
+      "artist": "MC Hammer",
+      "album": "Please Hammer Don't Hurt 'Em",
+      "year": 1990,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f5e5babccf665ef8c912b190"
+    },
+    {
+      "id": "90er-021",
+      "poolId": "90er",
+      "spotifyTrackId": "2LjiPAQOVazT8sRyXL3XRs",
+      "title": "Informer",
+      "artist": "Snow",
+      "album": "12 Inches Of Snow",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739036fd3354a722609bd5f98c"
+    },
+    {
+      "id": "90er-022",
+      "poolId": "90er",
+      "spotifyTrackId": "0OTO8ZF2YqFQVw9hnZylTd",
+      "title": "What Is Love",
+      "artist": "Haddaway",
+      "album": "The Album",
+      "year": 1993,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311dd4c0e55e78ffbf805d27b"
+    },
+    {
+      "id": "90er-023",
+      "poolId": "90er",
+      "spotifyTrackId": "5uFYYOyT3EclOVhiFzPJSz",
+      "title": "Rhythm Is A Dancer",
+      "artist": "SNAP!",
+      "album": "The Madman's Return",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734c894b7dd6b2939c8c547d3d"
+    },
+    {
+      "id": "90er-024",
+      "poolId": "90er",
+      "spotifyTrackId": "6x4tKaOzfNJpEJHySoiJcs",
+      "title": "Mambo No. 5 (A Little Bit of...)",
+      "artist": "Lou Bega",
+      "album": "A Little Bit of Mambo",
+      "year": 1999,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf505191afa6a1978418fdf8"
+    },
+    {
+      "id": "90er-025",
+      "poolId": "90er",
+      "spotifyTrackId": "4QlzkaRHtU8gAdwqjWmO8n",
+      "title": "Friday I'm In Love",
+      "artist": "The Cure",
+      "album": "Wish",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739c72b249fcaa04d074c1dfcd"
+    },
+    {
+      "id": "90er-026",
+      "poolId": "90er",
+      "spotifyTrackId": "2i4AouhQeGFBb4g3cx8yqg",
+      "title": "Bitter Sweet Symphony",
+      "artist": "The Verve",
+      "album": "Bitter Sweet Symphony",
+      "year": 1997,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27349f918bb68fde4b707d7b537"
+    },
+    {
+      "id": "90er-027",
+      "poolId": "90er",
+      "spotifyTrackId": "5ZrDlcxIDZyjOzHdYW1ydr",
+      "title": "Barbie Girl",
+      "artist": "Aqua",
+      "album": "Aquarium (Special Edition)",
+      "year": 1997,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f5768db89dd8ac30fd0e414f"
+    },
+    {
+      "id": "2000er-001",
+      "poolId": "2000er",
+      "spotifyTrackId": "2PpruBYCo4H7WOBJ7Q2EwM",
+      "title": "Hey Ya!",
+      "artist": "Outkast",
+      "album": "Speakerboxxx/The Love Below",
+      "year": 2003,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e88eb6508fd94cd1b745ce2"
+    },
+    {
+      "id": "2000er-002",
+      "poolId": "2000er",
+      "spotifyTrackId": "0TwBtDAWpkpM3srywFVOV5",
+      "title": "Crazy In Love",
+      "artist": "Beyoncé",
+      "album": "Dangerously In Love",
+      "year": 2003,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a9fd4a0405945cd51e8de130"
+    },
+    {
+      "id": "2000er-003",
+      "poolId": "2000er",
+      "spotifyTrackId": "003vvx7Niy0yvhvHt4a68B",
+      "title": "Mr. Brightside",
+      "artist": "The Killers",
+      "album": "Hot Fuss",
+      "year": 2004,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d"
+    },
+    {
+      "id": "2000er-004",
+      "poolId": "2000er",
+      "spotifyTrackId": "3dPQuX8Gs42Y7b454ybpMR",
+      "title": "Seven Nation Army",
+      "artist": "The White Stripes",
+      "album": "Elephant",
+      "year": 2003,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737028981d09d2e5833c9c78ad"
+    },
+    {
+      "id": "2000er-005",
+      "poolId": "2000er",
+      "spotifyTrackId": "5rb9QrpfcKFHM1EUbSIurX",
+      "title": "Yeah!",
+      "artist": "Usher",
+      "album": "Confessions",
+      "year": 2004,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273365b3fb800c19f7ff72602da"
+    },
+    {
+      "id": "2000er-006",
+      "poolId": "2000er",
+      "spotifyTrackId": "7iL6o9tox1zgHpKUfh9vuC",
+      "title": "In Da Club",
+      "artist": "50 Cent",
+      "album": "Get Rich Or Die Tryin'",
+      "year": 2003,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d843fabb75fef14010e30cae"
+    },
+    {
+      "id": "2000er-007",
+      "poolId": "2000er",
+      "spotifyTrackId": "6GkTKjv1XbFVdI2D8vvDPu",
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "album": "8 Mile (Music From And Inspired By The Motion Picture)",
+      "year": 2002,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27352ab2c1657a3e548ff021411"
+    },
+    {
+      "id": "2000er-008",
+      "poolId": "2000er",
+      "spotifyTrackId": "6I9VzXrHxO9rA9A5euc8Ak",
+      "title": "Toxic",
+      "artist": "Britney Spears",
+      "album": "In The Zone",
+      "year": 2003,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273efc6988972cb04105f002cd4"
+    },
+    {
+      "id": "2000er-009",
+      "poolId": "2000er",
+      "spotifyTrackId": "6JY1IdkZGeIcPegKxjSKeb",
+      "title": "Since U Been Gone",
+      "artist": "Kelly Clarkson",
+      "album": "Breakaway",
+      "year": 2004,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273158c72ad0003cb37ca0c9eff"
+    },
+    {
+      "id": "2000er-010",
+      "poolId": "2000er",
+      "spotifyTrackId": "49FYlytm3dAAraYgpoJZux",
+      "title": "Umbrella",
+      "artist": "Rihanna",
+      "album": "Good Girl Gone Bad: Reloaded",
+      "year": 2007,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f9f27162ab1ed45b8d7a7e98"
+    },
+    {
+      "id": "2000er-011",
+      "poolId": "2000er",
+      "spotifyTrackId": "19z17doSqEhhm4aidrUHIB",
+      "title": "Rehab",
+      "artist": "Amy Winehouse",
+      "album": "Back To Black",
+      "year": 2006,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eb58cc91f740bda393b88b34"
+    },
+    {
+      "id": "2000er-012",
+      "poolId": "2000er",
+      "spotifyTrackId": "0BCPKOYdS2jbQ8iyB56Zns",
+      "title": "Clocks",
+      "artist": "Coldplay",
+      "album": "A Rush of Blood to the Head",
+      "year": 2002,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de09e02aa7febf30b7c02d82"
+    },
+    {
+      "id": "2000er-013",
+      "poolId": "2000er",
+      "spotifyTrackId": "1hwJKpe0BPUsq6UUrwBWTw",
+      "title": "Boulevard of Broken Dreams",
+      "artist": "Green Day",
+      "album": "Boulevard of Broken Dreams",
+      "year": 2004,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27397e3ca5aecb464f021c601d5"
+    },
+    {
+      "id": "2000er-014",
+      "poolId": "2000er",
+      "spotifyTrackId": "2nLtzopw4rPReszdYBJU6h",
+      "title": "Numb",
+      "artist": "Linkin Park",
+      "album": "Meteora",
+      "year": 2003,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735f1f51d14e8bea89484ecd1b"
+    },
+    {
+      "id": "2000er-015",
+      "poolId": "2000er",
+      "spotifyTrackId": "3d0WouFnFmr0K3kjeza3fF",
+      "title": "Hips Don't Lie",
+      "artist": "Shakira",
+      "album": "Oral Fixation, Vol. 2",
+      "year": 2006,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27385432abc16fd92be0d435cb9"
+    },
+    {
+      "id": "2000er-016",
+      "poolId": "2000er",
+      "spotifyTrackId": "0O45fw2L5vsWpdsOdXwNAR",
+      "title": "SexyBack",
+      "artist": "Justin Timberlake",
+      "album": "FutureSex/LoveSounds",
+      "year": 2006,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c6ba98fd3f3b396a6c6f7091"
+    },
+    {
+      "id": "2000er-017",
+      "poolId": "2000er",
+      "spotifyTrackId": "0mUyMawtxj1CJ76kn9gIZK",
+      "title": "Bad Day",
+      "artist": "Daniel Powter",
+      "album": "Daniel Powter",
+      "year": 2005,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d5d74dc15f88ec6e02c7378d"
+    },
+    {
+      "id": "2000er-018",
+      "poolId": "2000er",
+      "spotifyTrackId": "3850dYVgOFIXJh5U4BFEWH",
+      "title": "Hung Up",
+      "artist": "Madonna",
+      "album": "Confessions on a Dance Floor",
+      "year": 2005,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aaa9d84415623c1e790cd07b"
+    },
+    {
+      "id": "2000er-019",
+      "poolId": "2000er",
+      "spotifyTrackId": "1PS1QMdUqOal0ai3Gt7sDQ",
+      "title": "Gold Digger",
+      "artist": "Kanye West",
+      "album": "Late Registration",
+      "year": 2005,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273428d2255141c2119409a31b2"
+    },
+    {
+      "id": "2000er-020",
+      "poolId": "2000er",
+      "spotifyTrackId": "10Nmj3JCNoMeBQ87uw5j8k",
+      "title": "Dani California",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Stadium Arcadium",
+      "year": 2006,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517"
+    },
+    {
+      "id": "2000er-021",
+      "poolId": "2000er",
+      "spotifyTrackId": "20I8RduZC2PWMWTDCZuuAN",
+      "title": "Take Me Out",
+      "artist": "Franz Ferdinand",
+      "album": "Franz Ferdinand",
+      "year": 2004,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a5d1c06a8172d4861367953c"
+    },
+    {
+      "id": "2000er-022",
+      "poolId": "2000er",
+      "spotifyTrackId": "2lwwrWVKdf3LR9lbbhnr6R",
+      "title": "Float On",
+      "artist": "Modest Mouse",
+      "album": "Good News For People Who Love Bad News",
+      "year": 2004,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cc68329bfbf34037df965dc1"
+    },
+    {
+      "id": "2000er-023",
+      "poolId": "2000er",
+      "spotifyTrackId": "5xEM5hIgJ1jjgcEBfpkt2F",
+      "title": "Complicated",
+      "artist": "Avril Lavigne",
+      "album": "Let Go",
+      "year": 2002,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f7ec724fbf97a30869d06240"
+    },
+    {
+      "id": "2000er-024",
+      "poolId": "2000er",
+      "spotifyTrackId": "0gmbgwZ8iqyMPmXefof8Yf",
+      "title": "How You Remind Me",
+      "artist": "Nickelback",
+      "album": "Silver Side Up",
+      "year": 2001,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273699a422d25adc550dc5aa11c"
+    },
+    {
+      "id": "2000er-025",
+      "poolId": "2000er",
+      "spotifyTrackId": "0gzqZ9d1jIKo9psEIthwXe",
+      "title": "Beautiful Day",
+      "artist": "U2",
+      "album": "All That You Can't Leave Behind",
+      "year": 2000,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27338fa0dfe55b1ff2e8c962bae"
+    },
+    {
+      "id": "2000er-026",
+      "poolId": "2000er",
+      "spotifyTrackId": "7LVHVU3tWfcxj5aiPFEW4Q",
+      "title": "Fix You",
+      "artist": "Coldplay",
+      "album": "X&Y",
+      "year": 2005,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734e0362c225863f6ae2432651"
+    },
+    {
+      "id": "2010er-001",
+      "poolId": "2010er",
+      "spotifyTrackId": "4OSBTYWVwsQhGLF9NHvIbR",
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2010,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e63ac9f24aab9acc90f81960"
+    },
+    {
+      "id": "2010er-002",
+      "poolId": "2010er",
+      "spotifyTrackId": "60nZcImufyMA1MKQY3dcCH",
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "album": "G I R L",
+      "year": 2013,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e89d2c2a3db129062b3b4e4f"
+    },
+    {
+      "id": "2010er-003",
+      "poolId": "2010er",
+      "spotifyTrackId": "32OlwWuMpZ6b0aN2RZOeMS",
+      "title": "Uptown Funk",
+      "artist": "Mark Ronson",
+      "album": "Uptown Special",
+      "year": 2014,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739860171ddfee17f77a570cf6"
+    },
+    {
+      "id": "2010er-004",
+      "poolId": "2010er",
+      "spotifyTrackId": "69kOkLUCkxIZYexIgSG8rq",
+      "title": "Get Lucky",
+      "artist": "Daft Punk",
+      "album": "Random Access Memories",
+      "year": 2013,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937"
+    },
+    {
+      "id": "2010er-005",
+      "poolId": "2010er",
+      "spotifyTrackId": "7qiZfU4dY1lWllzX7mPBI3",
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "÷",
+      "year": 2017,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96"
+    },
+    {
+      "id": "2010er-006",
+      "poolId": "2010er",
+      "spotifyTrackId": "3bNv3VuUOKgrf5hu3YcuRo",
+      "title": "Someone Like You",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e63ac9f24aab9acc90f81960"
+    },
+    {
+      "id": "2010er-007",
+      "poolId": "2010er",
+      "spotifyTrackId": "7mitXLIMCflkhZiD34uEQI",
+      "title": "Party Rock Anthem",
+      "artist": "LMFAO",
+      "album": "Sorry For Party Rocking",
+      "year": 2011,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731db908d5f66645cb158837ca"
+    },
+    {
+      "id": "2010er-008",
+      "poolId": "2010er",
+      "spotifyTrackId": "20I6sIOMTCkB6w7ryavxtO",
+      "title": "Call Me Maybe",
+      "artist": "Carly Rae Jepsen",
+      "album": "Kiss",
+      "year": 2012,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d3ee4bf67c2ac2154006ad72"
+    },
+    {
+      "id": "2010er-009",
+      "poolId": "2010er",
+      "spotifyTrackId": "03UrZgTINDqvnUMbbIMhql",
+      "title": "Gangnam Style",
+      "artist": "PSY",
+      "album": "Gangnam Style (강남스타일)",
+      "year": 2012,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736cfc57e5358c5e39e79bccbd"
+    },
+    {
+      "id": "2010er-010",
+      "poolId": "2010er",
+      "spotifyTrackId": "6md4w95cnKaW64JyEQ3A0L",
+      "title": "Somebody That I Used To Know",
+      "artist": "Gotye",
+      "album": "Making Mirrors",
+      "year": 2011,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b17e6fe9a59f8876adb9f90b"
+    },
+    {
+      "id": "2010er-011",
+      "poolId": "2010er",
+      "spotifyTrackId": "62yJjFtgkhUrXktIoSjgP2",
+      "title": "Radioactive",
+      "artist": "Imagine Dragons",
+      "album": "Night Visions",
+      "year": 2012,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273407bd04707c463bbb3410737"
+    },
+    {
+      "id": "2010er-012",
+      "poolId": "2010er",
+      "spotifyTrackId": "2dLLR6qlu5UJ5gk0dKz0h3",
+      "title": "Royals",
+      "artist": "Lorde",
+      "album": "Pure Heroine",
+      "year": 2013,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273187331e276c898d39764cc98"
+    },
+    {
+      "id": "2010er-013",
+      "poolId": "2010er",
+      "spotifyTrackId": "0nrRP2bk19rLc0orkWPQk2",
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "album": "True",
+      "year": 2013,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e14f11f796cef9f9a82691a7"
+    },
+    {
+      "id": "2010er-014",
+      "poolId": "2010er",
+      "spotifyTrackId": "2tpWsVSb9UEmDRxAl1zhX1",
+      "title": "Counting Stars",
+      "artist": "OneRepublic",
+      "album": "Native",
+      "year": 2013,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739e2f95ae77cf436017ada9cb"
+    },
+    {
+      "id": "2010er-015",
+      "poolId": "2010er",
+      "spotifyTrackId": "3U4isOIWM3VvDubwSI3y7a",
+      "title": "All of Me",
+      "artist": "John Legend",
+      "album": "Love In The Future",
+      "year": 2013,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bdcc3b587b5249932bc415c2"
+    },
+    {
+      "id": "2010er-016",
+      "poolId": "2010er",
+      "spotifyTrackId": "1kKlhuQE0HXp1IwBRpaH2P",
+      "title": "Shake It Off",
+      "artist": "Taylor Swift",
+      "album": "1989",
+      "year": 2014,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b7e976d2b35c767f9012cb72"
+    },
+    {
+      "id": "2010er-017",
+      "poolId": "2010er",
+      "spotifyTrackId": "34gCuhDGsG4bRPIf9bb02f",
+      "title": "Thinking Out Loud",
+      "artist": "Ed Sheeran",
+      "album": "x",
+      "year": 2014,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd"
+    },
+    {
+      "id": "2010er-018",
+      "poolId": "2010er",
+      "spotifyTrackId": "6JV2JOEocMgcZxYSZelKcc",
+      "title": "Can't Stop the Feeling!",
+      "artist": "Justin Timberlake",
+      "album": "CAN'T STOP THE FEELING! (from DreamWorks Animation's \"TROLLS\")",
+      "year": 2016,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ef37416970812293c08e8a78"
+    },
+    {
+      "id": "2010er-019",
+      "poolId": "2010er",
+      "spotifyTrackId": "7BKLCZ1jbUBVqRi2FVlTVw",
+      "title": "Closer",
+      "artist": "The Chainsmokers",
+      "album": "Closer",
+      "year": 2016,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273495ce6da9aeb159e94eaa453"
+    },
+    {
+      "id": "2010er-020",
+      "poolId": "2010er",
+      "spotifyTrackId": "6habFhsOp2NvshLv26DqMb",
+      "title": "Despacito",
+      "artist": "Luis Fonsi",
+      "album": "VIDA",
+      "year": 2017,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ef0d4234e1a645740f77d59c"
+    },
+    {
+      "id": "2010er-021",
+      "poolId": "2010er",
+      "spotifyTrackId": "0F7FA14euOIX8KcbEturGH",
+      "title": "Old Town Road",
+      "artist": "Lil Nas X",
+      "album": "7",
+      "year": 2019,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736239187793c9e492e687db01"
+    },
+    {
+      "id": "2010er-022",
+      "poolId": "2010er",
+      "spotifyTrackId": "2Fxmhks0bxGSBdJ92vM42m",
+      "title": "bad guy",
+      "artist": "Billie Eilish",
+      "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+      "year": 2019,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce"
+    },
+    {
+      "id": "2010er-023",
+      "poolId": "2010er",
+      "spotifyTrackId": "0RiRZpuVRbi7oqRdSMwhQY",
+      "title": "Sunflower",
+      "artist": "Post Malone",
+      "album": "Hollywood's Bleeding",
+      "year": 2018,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739478c87599550dd73bfa7e02"
+    },
+    {
+      "id": "2010er-024",
+      "poolId": "2010er",
+      "spotifyTrackId": "3CRDbSIZ4r5MsZ0YwxuEkn",
+      "title": "Stressed Out",
+      "artist": "twenty one pilots",
+      "album": "Blurryface",
+      "year": 2015,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732df0d98a423025032d0db1f7"
+    },
+    {
+      "id": "2010er-025",
+      "poolId": "2010er",
+      "spotifyTrackId": "1Yk0cQdMLx5RzzFTYwmuld",
+      "title": "Hello",
+      "artist": "Adele",
+      "album": "25",
+      "year": 2015,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737b9888dc365b8f957c63df14"
+    },
+    {
+      "id": "2010er-026",
+      "poolId": "2010er",
+      "spotifyTrackId": "09CtPGIpYB4BrO8qb1RGsF",
+      "title": "Sorry",
+      "artist": "Justin Bieber",
+      "album": "Purpose",
+      "year": 2015,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f46b9d202509a8f7384b90de"
+    },
+    {
+      "id": "2010er-027",
+      "poolId": "2010er",
+      "spotifyTrackId": "6DCZcSspjsKoFjzjrWoCdn",
+      "title": "God's Plan",
+      "artist": "Drake",
+      "album": "Scorpion",
+      "year": 2018,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f907de96b9a4fbc04accc0d5"
+    },
+    {
+      "id": "2020er-001",
+      "poolId": "2020er",
+      "spotifyTrackId": "0VjIjW4GlUZAMYd2vXMi3b",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "year": 2020,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
+    },
+    {
+      "id": "2020er-002",
+      "poolId": "2020er",
+      "spotifyTrackId": "5uu0D02efCoFMQiLYFT32e",
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "album": "Future Nostalgia",
+      "year": 2020,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bb1e7090e662ce98b0e1b4c0"
+    },
+    {
+      "id": "2020er-003",
+      "poolId": "2020er",
+      "spotifyTrackId": "5wANPM4fQCJwkGd4rN57mH",
+      "title": "drivers license",
+      "artist": "Olivia Rodrigo",
+      "album": "SOUR",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a91c10fe9472d9bd89802e5a"
+    },
+    {
+      "id": "2020er-004",
+      "poolId": "2020er",
+      "spotifyTrackId": "4ZtFanR9U6ndgddUvNcjcG",
+      "title": "good 4 u",
+      "artist": "Olivia Rodrigo",
+      "album": "SOUR",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a91c10fe9472d9bd89802e5a"
+    },
+    {
+      "id": "2020er-005",
+      "poolId": "2020er",
+      "spotifyTrackId": "4Dvkj6JhhA12EX05fT7y2e",
+      "title": "As It Was",
+      "artist": "Harry Styles",
+      "album": "Harry's House",
+      "year": 2022,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27382ce362511fb3d9dda6578ee"
+    },
+    {
+      "id": "2020er-006",
+      "poolId": "2020er",
+      "spotifyTrackId": "7DSAEUvxU8FajXtRloy8M0",
+      "title": "Flowers",
+      "artist": "Miley Cyrus",
+      "album": "Endless Summer Vacation",
+      "year": 2023,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366fd0917f38d472c8576754e"
+    },
+    {
+      "id": "2020er-007",
+      "poolId": "2020er",
+      "spotifyTrackId": "0V3wPSX9ygBnCm8psDIegu",
+      "title": "Anti-Hero",
+      "artist": "Taylor Swift",
+      "album": "Midnights",
+      "year": 2022,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5"
+    },
+    {
+      "id": "2020er-008",
+      "poolId": "2020er",
+      "spotifyTrackId": "3USxtqRwSYz57Ewm6wWRMp",
+      "title": "Heat Waves",
+      "artist": "Glass Animals",
+      "album": "Dreamland",
+      "year": 2020,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273712701c5e263efc8726b1464"
+    },
+    {
+      "id": "2020er-009",
+      "poolId": "2020er",
+      "spotifyTrackId": "567e29TDzLwZwfDuEpGTwo",
+      "title": "STAY (with Justin Bieber)",
+      "artist": "The Kid LAROI",
+      "album": "F*CK LOVE 3+: OVER YOU",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b4d59e6fa7e5e7cbc57ac33a"
+    },
+    {
+      "id": "2020er-010",
+      "poolId": "2020er",
+      "spotifyTrackId": "46IZ0fSY2mpAiktS3KOqds",
+      "title": "Easy On Me",
+      "artist": "Adele",
+      "album": "30",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c6b577e4c4a6d326354a89f7"
+    },
+    {
+      "id": "2020er-011",
+      "poolId": "2020er",
+      "spotifyTrackId": "50nfwKoDiSYg8zOCREWAm5",
+      "title": "Shivers",
+      "artist": "Ed Sheeran",
+      "album": "=",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dc806722f6802a8ea9953c89"
+    },
+    {
+      "id": "2020er-012",
+      "poolId": "2020er",
+      "spotifyTrackId": "3rmo8F54jFF8OgYsqTxm5d",
+      "title": "Bad Habits",
+      "artist": "Ed Sheeran",
+      "album": "=",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dc806722f6802a8ea9953c89"
+    },
+    {
+      "id": "2020er-013",
+      "poolId": "2020er",
+      "spotifyTrackId": "5QO79kh1waicV47BqGRL3g",
+      "title": "Save Your Tears",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "year": 2020,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
+    },
+    {
+      "id": "2020er-014",
+      "poolId": "2020er",
+      "spotifyTrackId": "1SC5rEoYDGUK4NfG82494W",
+      "title": "MONTERO (Call Me By Your Name)",
+      "artist": "Lil Nas X",
+      "album": "MONTERO",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f27e4bdc58ebe249a6b90da0"
+    },
+    {
+      "id": "2020er-015",
+      "poolId": "2020er",
+      "spotifyTrackId": "5Z9KJZvQzH6PFmb8SNkxuk",
+      "title": "INDUSTRY BABY",
+      "artist": "Lil Nas X",
+      "album": "MONTERO",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f27e4bdc58ebe249a6b90da0"
+    },
+    {
+      "id": "2020er-016",
+      "poolId": "2020er",
+      "spotifyTrackId": "4iJyoBOLtHqaGxP12qzhQI",
+      "title": "Peaches",
+      "artist": "Justin Bieber",
+      "album": "Justice",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431"
+    },
+    {
+      "id": "2020er-017",
+      "poolId": "2020er",
+      "spotifyTrackId": "3DarAbFujv6eYNliUTyqtz",
+      "title": "Kiss Me More",
+      "artist": "Doja Cat",
+      "album": "Planet Her",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27314b7b2a920a41166d53ddd49"
+    },
+    {
+      "id": "2020er-018",
+      "poolId": "2020er",
+      "spotifyTrackId": "1kuGVB7EU95pJObxwvfwKS",
+      "title": "vampire",
+      "artist": "Olivia Rodrigo",
+      "album": "GUTS",
+      "year": 2023,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e85259a1cae29a8d91f2093d"
+    },
+    {
+      "id": "2020er-019",
+      "poolId": "2020er",
+      "spotifyTrackId": "2HRqTpkrJO5ggZyyK6NPWz",
+      "title": "Espresso",
+      "artist": "Sabrina Carpenter",
+      "album": "Short n' Sweet",
+      "year": 2024,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626"
+    },
+    {
+      "id": "2020er-020",
+      "poolId": "2020er",
+      "spotifyTrackId": "2tHwzyyOLoWSFqYNjeVMzj",
+      "title": "Please Please Please",
+      "artist": "Sabrina Carpenter",
+      "album": "Short n' Sweet",
+      "year": 2024,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626"
+    },
+    {
+      "id": "2020er-021",
+      "poolId": "2020er",
+      "spotifyTrackId": "6AI3ezQ4o3HUoP6Dhudph3",
+      "title": "Not Like Us",
+      "artist": "Kendrick Lamar",
+      "album": "Not Like Us",
+      "year": 2024,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731ea0c62b2339cbf493a999ad"
+    },
+    {
+      "id": "2020er-022",
+      "poolId": "2020er",
+      "spotifyTrackId": "1IHWl5LamUGEuP4ozKQSXZ",
+      "title": "Tití Me Preguntó",
+      "artist": "Bad Bunny",
+      "album": "Un Verano Sin Ti",
+      "year": 2022,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27349d694203245f241a1bcaa72"
+    },
+    {
+      "id": "2020er-023",
+      "poolId": "2020er",
+      "spotifyTrackId": "3BnDvpeuGOj21Ir2aVEtQo",
+      "title": "Calm Down",
+      "artist": "Rema",
+      "album": "Rave & Roses",
+      "year": 2022,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ffa52727feedfd1935d160c4"
+    },
+    {
+      "id": "2020er-024",
+      "poolId": "2020er",
+      "spotifyTrackId": "0NZPBYD5qbEWRs3PrGiRkT",
+      "title": "Unholy",
+      "artist": "Sam Smith",
+      "album": "Gloria",
+      "year": 2022,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350a1691fbbfb693a5171d600"
+    },
+    {
+      "id": "2020er-025",
+      "poolId": "2020er",
+      "spotifyTrackId": "3OHfY25tqY28d16oZczHc8",
+      "title": "Kill Bill",
+      "artist": "SZA",
+      "album": "SOS",
+      "year": 2022,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bc18bdade69ec5ef0bb25b17"
+    },
+    {
+      "id": "2020er-026",
+      "poolId": "2020er",
+      "spotifyTrackId": "56y1jOTK0XSvJzVv9vHQBK",
+      "title": "Paint The Town Red",
+      "artist": "Doja Cat",
+      "album": "Scarlet",
+      "year": 2023,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a54499d7ba4e9afeea91df86"
+    },
+    {
+      "id": "film-90er-001",
+      "poolId": "film-90er",
+      "spotifyTrackId": "33LC84JgLvK2KuW43MfaNq",
+      "title": "My Heart Will Go On",
+      "artist": "Céline Dion",
+      "album": "Let's Talk About Love",
+      "year": 1997,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273def7146ca744f3b1bf838404"
+    },
+    {
+      "id": "film-90er-002",
+      "poolId": "film-90er",
+      "spotifyTrackId": "4eHbdreAnSOrDDsFfc4Fpm",
+      "title": "I Will Always Love You",
+      "artist": "Whitney Houston",
+      "album": "The Bodyguard - Original Soundtrack Album",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273456c0b5d0316a80dc600802e"
+    },
+    {
+      "id": "film-90er-003",
+      "poolId": "film-90er",
+      "spotifyTrackId": "1DIXPcTDzTj8ZMHt3PDt8p",
+      "title": "Gangsta's Paradise",
+      "artist": "Coolio",
+      "album": "Gangsta's Paradise",
+      "year": 1995,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737438996f6fe67c59d75d4e43"
+    },
+    {
+      "id": "film-90er-004",
+      "poolId": "film-90er",
+      "spotifyTrackId": "3YKptz29AsOlm7WAVnztBh",
+      "title": "Kiss from a Rose",
+      "artist": "Seal",
+      "album": "Seal",
+      "year": 1994,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d4866ed921300e8ef50808"
+    },
+    {
+      "id": "film-90er-005",
+      "poolId": "film-90er",
+      "spotifyTrackId": "5qlJg0Wbj3sslxfwiaRNpq",
+      "title": "I Don't Want to Miss a Thing",
+      "artist": "Aerosmith",
+      "album": "I Don't Want To Miss A Thing EP",
+      "year": 1998,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f039d2a6afcfab0827bb9bc0"
+    },
+    {
+      "id": "film-90er-006",
+      "poolId": "film-90er",
+      "spotifyTrackId": "14EOQhsx4YEn8jKkBWK3ZE",
+      "title": "Streets of Philadelphia",
+      "artist": "Bruce Springsteen",
+      "album": "Hungry Heart",
+      "year": 1993,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d08d5067723ba85434e0334a"
+    },
+    {
+      "id": "film-90er-007",
+      "poolId": "film-90er",
+      "spotifyTrackId": "2FK7fxjzQEXD7Z32HSF0Hl",
+      "title": "Men In Black",
+      "artist": "Will Smith",
+      "album": "Big Willie Style",
+      "year": 1997,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ddf2f9edabd166c60047e3c4"
+    },
+    {
+      "id": "film-90er-008",
+      "poolId": "film-90er",
+      "spotifyTrackId": "5AMvBCtX2rspUdoeJ9IsPN",
+      "title": "Wild Wild West",
+      "artist": "Will Smith",
+      "album": "Willennium",
+      "year": 1999,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737b0d0b56b568a7605dcebdd0"
+    },
+    {
+      "id": "film-90er-009",
+      "poolId": "film-90er",
+      "spotifyTrackId": "7xG1fakElLbxwyr9eyGEK6",
+      "title": "Colors of the Wind",
+      "artist": "Vanessa Williams",
+      "album": "Pocahontas",
+      "year": 1995,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273281dfd7af2ee99a124404623"
+    },
+    {
+      "id": "film-90er-010",
+      "poolId": "film-90er",
+      "spotifyTrackId": "4Nw5MSSUG8tUh5rjkaHd6K",
+      "title": "Circle of Life",
+      "artist": "Elton John",
+      "album": "Circle Of Life",
+      "year": 1994,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a8c7e2d642f0da5abe1df8a7"
+    },
+    {
+      "id": "film-90er-011",
+      "poolId": "film-90er",
+      "spotifyTrackId": "0EANX0OVKSCcmarY50Xa4p",
+      "title": "Can You Feel the Love Tonight",
+      "artist": "Elton John",
+      "album": "The Lion King",
+      "year": 1994,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273660aadbda2da6b1c2dd3d1a5"
+    },
+    {
+      "id": "film-90er-012",
+      "poolId": "film-90er",
+      "spotifyTrackId": "7B3UAPLYAbwXVgbHSKEaTw",
+      "title": "Beauty and the Beast",
+      "artist": "Céline Dion",
+      "album": "Celine Dion",
+      "year": 1991,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c2e1dc3683211f1240ea8dd2"
+    },
+    {
+      "id": "film-90er-013",
+      "poolId": "film-90er",
+      "spotifyTrackId": "6Qyc6fS4DsZjB2mRW9DsQs",
+      "title": "Iris",
+      "artist": "Goo Goo Dolls",
+      "album": "Dizzy up the Girl",
+      "year": 1998,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eda9478c39a21e1cdc6609ca"
+    },
+    {
+      "id": "film-90er-014",
+      "poolId": "film-90er",
+      "spotifyTrackId": "1Eb90nmqTrxylKFhcUzW8P",
+      "title": "(Everything I Do) I Do It for You",
+      "artist": "Bryan Adams",
+      "album": "Waking Up The Neighbours",
+      "year": 1991,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27305a41288f037a08fb45db5e2"
+    },
+    {
+      "id": "film-90er-015",
+      "poolId": "film-90er",
+      "spotifyTrackId": "28UMiBhn383n9S7GL4tsxD",
+      "title": "Because You Loved Me",
+      "artist": "Céline Dion",
+      "album": "Falling into You",
+      "year": 1996,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c6aebd89b2dcda3348649633"
+    },
+    {
+      "id": "film-90er-016",
+      "poolId": "film-90er",
+      "spotifyTrackId": "52gyKQAogIdvABzuwRnr5b",
+      "title": "GoldenEye",
+      "artist": "Tina Turner",
+      "album": "Wildest Dreams",
+      "year": 1995,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731a4e1ad080572e6268484dd1"
+    },
+    {
+      "id": "film-90er-017",
+      "poolId": "film-90er",
+      "spotifyTrackId": "3peBSjcjaouspgb68WK2sk",
+      "title": "Tomorrow Never Dies",
+      "artist": "Sheryl Crow",
+      "album": "Tomorrow Never Dies",
+      "year": 1997,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ffffa761a1b64431862cdf9"
+    },
+    {
+      "id": "film-90er-018",
+      "poolId": "film-90er",
+      "spotifyTrackId": "2mg6Z7RiQLC1aeF1jGm4RB",
+      "title": "The World Is Not Enough",
+      "artist": "Garbage",
+      "album": "The World Is Not Enough",
+      "year": 1999,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273641d165c1bf0d36fdf4cab0e"
+    },
+    {
+      "id": "film-90er-019",
+      "poolId": "film-90er",
+      "spotifyTrackId": "6zbHSDJjgrNdfIxPyGfPBt",
+      "title": "Wake Up",
+      "artist": "Rage Against The Machine",
+      "album": "Rage Against The Machine",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ee4644e12bef70636167c6bd"
+    },
+    {
+      "id": "film-2000er-001",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "6GkTKjv1XbFVdI2D8vvDPu",
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "album": "8 Mile (Music From And Inspired By The Motion Picture)",
+      "year": 2002,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27352ab2c1657a3e548ff021411"
+    },
+    {
+      "id": "film-2000er-002",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "0Ucm5WQfmLRadXKzQbzbLj",
+      "title": "Accidentally In Love",
+      "artist": "Counting Crows",
+      "album": "Accidentally In Love (From Shrek 2 S/T)",
+      "year": 2004,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27300c92c04e0fe8721c3fda69e"
+    },
+    {
+      "id": "film-2000er-003",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "3cfOd4CMv2snFaKAnMdnvK",
+      "title": "All Star",
+      "artist": "Smash Mouth",
+      "album": "Astro Lounge",
+      "year": 1999,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734f3bbf9631faeb8de9912a23"
+    },
+    {
+      "id": "film-2000er-004",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "0gSEyG7pOFuHM05433EibX",
+      "title": "Into the West",
+      "artist": "Annie Lennox",
+      "album": "The Lord of the Rings: The Return of the King (Original Motion Picture Soundtrack)",
+      "year": 2003,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27301003bf641243fcc56944428"
+    },
+    {
+      "id": "film-2000er-005",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "1OQ8HS8ocbP4pwbbubdeJn",
+      "title": "May It Be",
+      "artist": "Enya",
+      "album": "The Lord of the Rings: The Fellowship of the Ring - the Complete Recordings",
+      "year": 2001,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738236dee9524214e0e6be4a1f"
+    },
+    {
+      "id": "film-2000er-006",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "4MR9iW77LJoPPDjwAYbIZZ",
+      "title": "You Know My Name",
+      "artist": "Chris Cornell",
+      "album": "Carry On",
+      "year": 2006,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fb54ccff8c7b63c0575222d9"
+    },
+    {
+      "id": "film-2000er-007",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "3JOVTQ5h8HGFnDdp4VT3MP",
+      "title": "Mad World",
+      "artist": "Gary Jules",
+      "album": "Trading Snakeoil for Wolftickets",
+      "year": 2001,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737948eec521c67e76cafe30a0"
+    },
+    {
+      "id": "film-2000er-008",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "779ooI3rBd0CLqCiiJmtVo",
+      "title": "Hero",
+      "artist": "Chad Kroeger",
+      "album": "Hero (feat. Josey Scott)",
+      "year": 2002,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738f969abf0a46070cf66ece6d"
+    },
+    {
+      "id": "film-2000er-009",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "3lPr8ghNDBLc2uZovNyLs9",
+      "title": "Supermassive Black Hole",
+      "artist": "Muse",
+      "album": "Black Holes and Revelations",
+      "year": 2006,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27328933b808bfb4cbbd0385400"
+    },
+    {
+      "id": "film-2000er-010",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "1ZLtE9tSJdaUiIJ9YoKHQe",
+      "title": "Decode",
+      "artist": "Paramore",
+      "album": "Decode",
+      "year": 2008,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b236d0eae2659e7e7adb8b56"
+    },
+    {
+      "id": "film-2000er-011",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "0GvUAJBEkJpO5RBPHTHbkb",
+      "title": "Lady Marmalade",
+      "artist": "Christina Aguilera",
+      "album": "Lady Marmalade",
+      "year": 2001,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733265458c5b7bc115c5054c96"
+    },
+    {
+      "id": "film-2000er-012",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "0bUhthTjJuGN8c5D9WRRD3",
+      "title": "Falling Slowly",
+      "artist": "Glen Hansard",
+      "album": "The Swell Season",
+      "year": 2006,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bbb71aa3c5f330831147e3e6"
+    },
+    {
+      "id": "film-2000er-013",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "1wAqhAF1dynDjMy7m5CSSE",
+      "title": "New Slang",
+      "artist": "The Shins",
+      "album": "Oh, Inverted World",
+      "year": 2001,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bcf47dc308162706db7b4fb0"
+    },
+    {
+      "id": "film-2000er-014",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "2pKi1lRvXNASy7ybeQIDTy",
+      "title": "Anyone Else But You",
+      "artist": "The Moldy Peaches",
+      "album": "The Moldy Peaches",
+      "year": 2001,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a6b3afcdd15b2b561e684337"
+    },
+    {
+      "id": "film-2000er-015",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "0HKD13PLq2WicViBBhSrOl",
+      "title": "Out of Reach",
+      "artist": "Gabrielle",
+      "album": "Rise",
+      "year": 2001,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738fdb084676b2c86231f4b244"
+    },
+    {
+      "id": "film-2000er-016",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "1elGwF4VwkwglV4nCBPJtv",
+      "title": "Now We Are Free",
+      "artist": "Hans Zimmer",
+      "album": "Gladiator - Music From The Motion Picture",
+      "year": 2000,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f3a2d7f692fcad25284c5f1e"
+    },
+    {
+      "id": "film-2000er-017",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "6lMh9k54E4mxbGBMkSwYhT",
+      "title": "When She Loved Me",
+      "artist": "Sarah McLachlan",
+      "album": "Toy Story 2",
+      "year": 1999,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d518170839bb96ea1661f9b4"
+    },
+    {
+      "id": "film-2000er-018",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "45dGKmN6jw7PgK6Dw2rEp2",
+      "title": "Real Gone",
+      "artist": "Sheryl Crow",
+      "album": "Cars (Original Motion Picture Soundtrack)",
+      "year": 2006,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a73bb6afa8cb999aafb3c150"
+    },
+    {
+      "id": "film-2000er-019",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "2Fs18NaCDuluPG1DHGw1XG",
+      "title": "Life Is A Highway",
+      "artist": "Rascal Flatts",
+      "album": "Me And My Gang",
+      "year": 2006,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aa6b03f85a0f2cb16e88ec0c"
+    },
+    {
+      "id": "film-2000er-020",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "7xf3S6Bv8hDqOtevZou602",
+      "title": "If I Didn't Have You",
+      "artist": "Billy Crystal",
+      "album": "Monsters, Inc. (Original Motion Picture Soundtrack)",
+      "year": 2001,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ba7c9946402feb80e664a9aa"
+    },
+    {
+      "id": "film-2000er-021",
+      "poolId": "film-2000er",
+      "spotifyTrackId": "6MAZwHJzMjBw1e2rP0tnuK",
+      "title": "He's a Pirate",
+      "artist": "Klaus Badelt",
+      "album": "Encore",
+      "year": 2003,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dd15d97ce7650c0e56eaf2ff"
+    },
+    {
+      "id": "games-2000er-001",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "0G21yYKMZoHa30cYVi1iA8",
+      "title": "Welcome To The Jungle",
+      "artist": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "year": 1987,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5"
+    },
+    {
+      "id": "games-2000er-002",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "7Ct71Pi6a5G4RjyT0zvIU9",
+      "title": "California Love",
+      "artist": "2Pac",
+      "album": "All Eyez On Me",
+      "year": 1995,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27367ed19ad1559ea591fab000d"
+    },
+    {
+      "id": "games-2000er-003",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "5Tbpp3OLLClPJF8t1DmrFD",
+      "title": "Nuthin' But A \"G\" Thang",
+      "artist": "Dr. Dre",
+      "album": "The Chronic",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739710731c9d7baec635f1bab1"
+    },
+    {
+      "id": "games-2000er-004",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "6JNJERZGJwDVgkmbohBw7u",
+      "title": "Self Control",
+      "artist": "Laura Branigan",
+      "album": "Self Control",
+      "year": 1984,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731310670cbb82f06474372cfd"
+    },
+    {
+      "id": "games-2000er-005",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "7o7E1nrHWncYY7PY94gCiX",
+      "title": "Video Killed The Radio Star",
+      "artist": "The Buggles",
+      "album": "The Age Of Plastic",
+      "year": 1979,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273983bb3e3f0c66b9b89a832fa"
+    },
+    {
+      "id": "games-2000er-006",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "78FHUZRbFDCG6VkRAQdFLm",
+      "title": "Broken Wings",
+      "artist": "Mr. Mister",
+      "album": "Welcome To The Real World",
+      "year": 1985,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cfccabf39d00d34235d5bcd6"
+    },
+    {
+      "id": "games-2000er-007",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "4X3qGigyU6ARi3HP4lWD95",
+      "title": "Superman",
+      "artist": "Goldfinger",
+      "album": "Hang-Ups",
+      "year": 1996,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735e25d83362d98523fb82fc0d"
+    },
+    {
+      "id": "games-2000er-008",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "1wsRitfRRtWyEapl0q22o8",
+      "title": "Guerrilla Radio",
+      "artist": "Rage Against The Machine",
+      "album": "The Battle Of Los Angeles",
+      "year": 1999,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733c2579a4f8cacd5b95b8fa68"
+    },
+    {
+      "id": "games-2000er-009",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "2HLg4sSCWBfEFDJ1cW75Z2",
+      "title": "Police Truck",
+      "artist": "Dead Kennedys",
+      "album": "Fresh Fruit For Rotting Vegetables",
+      "year": 1980,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a34079e0c455cad7a4b95559"
+    },
+    {
+      "id": "games-2000er-010",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "19C0LKY3DCcQtuviPJNy5d",
+      "title": "Jerry Was A Race Car Driver",
+      "artist": "Primus",
+      "album": "Sailing The Seas Of Cheese",
+      "year": 1991,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735058bc348ce35fb97ab2be98"
+    },
+    {
+      "id": "games-2000er-011",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "3I9K8tSZRsAw7bRYfbhJEA",
+      "title": "Cyco Vision",
+      "artist": "Suicidal Tendencies",
+      "album": "Freedumb",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27316230180870a4be688831eab"
+    },
+    {
+      "id": "games-2000er-012",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "4YpI5UjONYlE5SKMHEErzA",
+      "title": "Still Alive",
+      "artist": "Jonathan Coulton",
+      "album": "Best. Concert. Ever.",
+      "year": 2007,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de54037774592a8a4243b499"
+    },
+    {
+      "id": "games-2000er-013",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "0mH6I56IQ7GSVxC1JcpnCR",
+      "title": "Want You Gone",
+      "artist": "Jonathan Coulton",
+      "album": "Artificial Heart",
+      "year": 2011,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736d2cfeaf32f36fc360aef7ef"
+    },
+    {
+      "id": "games-2000er-014",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "0r2Bul2NuCViraT2zX1l5j",
+      "title": "Get Low",
+      "artist": "Lil Jon & The East Side Boyz",
+      "album": "Kings Of Crunk",
+      "year": 2003,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733ba0e7112f965bfda72b1c5b"
+    },
+    {
+      "id": "games-2000er-015",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "0RcYEWXtbu4ehdv1tiBOi0",
+      "title": "Riders on the Storm",
+      "artist": "Snoop Dogg",
+      "album": "Riders On The Storm (Fredwreck Remix)",
+      "year": 2004,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27347f58c2b7fe3bbd8d8671536"
+    },
+    {
+      "id": "games-2000er-016",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "4DMKwE2E2iYDKY01C335Uw",
+      "title": "Carry On Wayward Son",
+      "artist": "Kansas",
+      "album": "Leftoverture",
+      "year": 1976,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731be40e44db112e123e5e8b51"
+    },
+    {
+      "id": "games-2000er-017",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "5EWPGh7jbTNO2wakv8LjUI",
+      "title": "Free Bird",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "year": 1973,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273128450651c9f0442780d8eb8"
+    },
+    {
+      "id": "games-2000er-018",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "2E7W1X4maFFcjHrVrFA7Vs",
+      "title": "Bark at the Moon",
+      "artist": "Ozzy Osbourne",
+      "album": "Bark At The Moon",
+      "year": 1983,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273feeaf9a5c2beb414fb2b7090"
+    },
+    {
+      "id": "games-2000er-019",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "4jTqsgDaffdNH0BMBwhjFv",
+      "title": "I Love Rock 'N Roll",
+      "artist": "Joan Jett & the Blackhearts",
+      "album": "I Love Rock 'N' Roll",
+      "year": 1981,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739d931a490797521a395708e8"
+    },
+    {
+      "id": "games-2000er-020",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "51TG9W3y9qyO8BY5RXKgnZ",
+      "title": "Symphony Of Destruction",
+      "artist": "Megadeth",
+      "album": "Countdown To Extinction",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737b178f928742be1492c6fba2"
+    },
+    {
+      "id": "games-2000er-021",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "00sydAz6PeOxYzwG1dRIPi",
+      "title": "Search and Destroy",
+      "artist": "Iggy & The Stooges",
+      "album": "Raw Power",
+      "year": 1973,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f89578e7104e260c8c96c655"
+    },
+    {
+      "id": "games-2000er-022",
+      "poolId": "games-2000er",
+      "spotifyTrackId": "1FTSo4v6BOZH9QxKc3MbVM",
+      "title": "Song 2",
+      "artist": "Blur",
+      "album": "Blur (Special Edition)",
+      "year": 1997,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de114203356c1f7b136960b6"
+    },
+    {
+      "id": "tarantino-001",
+      "poolId": "tarantino",
+      "spotifyTrackId": "6bh07Y954ODyJFzrrQfJay",
+      "title": "Little Green Bag",
+      "artist": "George Baker Selection",
+      "album": "Hollands Glorie",
+      "year": 1969,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cd6df547ba0b96ae246c8939"
+    },
+    {
+      "id": "tarantino-002",
+      "poolId": "tarantino",
+      "spotifyTrackId": "3Vby4nGmtbDo7HDJamOWkT",
+      "title": "Stuck in the Middle with You",
+      "artist": "Stealers Wheel",
+      "album": "Stealers Wheel",
+      "year": 1972,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a5ce236c22035a02cf87d4de"
+    },
+    {
+      "id": "tarantino-003",
+      "poolId": "tarantino",
+      "spotifyTrackId": "6wmb6Mi0XcPEALiyCGWi2N",
+      "title": "Misirlou",
+      "artist": "Dick Dale & His Del-Tones",
+      "album": "Reverb at High Tide",
+      "year": 1962,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c781833fb9bc6d97b8233c7f"
+    },
+    {
+      "id": "tarantino-004",
+      "poolId": "tarantino",
+      "spotifyTrackId": "6ek9SiEj5a65WIs2EV7qiM",
+      "title": "Son of a Preacher Man",
+      "artist": "Dusty Springfield",
+      "album": "Dusty In Memphis",
+      "year": 1968,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e20037311210924b3c386f00"
+    },
+    {
+      "id": "tarantino-005",
+      "poolId": "tarantino",
+      "spotifyTrackId": "6FT83pFXKhDlXDsNJFAHWz",
+      "title": "You Never Can Tell",
+      "artist": "Chuck Berry",
+      "album": "St. Louis To Liverpool",
+      "year": 1964,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e226488b7af9f296c95be551"
+    },
+    {
+      "id": "tarantino-006",
+      "poolId": "tarantino",
+      "spotifyTrackId": "1mSzuXVjjKC0bPh6iG6xjy",
+      "title": "Girl, You'll Be a Woman Soon",
+      "artist": "Urge Overkill",
+      "album": "Stull",
+      "year": 1992,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736ea0141acf5e91ac9621f816"
+    },
+    {
+      "id": "tarantino-007",
+      "poolId": "tarantino",
+      "spotifyTrackId": "1hvKYV2SkmX1D2AeRCDxLH",
+      "title": "Bang Bang (My Baby Shot Me Down)",
+      "artist": "Nancy Sinatra",
+      "album": "How Does That Grab You? (2024 Reissue)",
+      "year": 1966,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c98f495819698b300a53cc32"
+    },
+    {
+      "id": "tarantino-008",
+      "poolId": "tarantino",
+      "spotifyTrackId": "6IH1AHlES81XXrSRECQDbt",
+      "title": "Don't Let Me Be Misunderstood",
+      "artist": "Santa Esmeralda",
+      "album": "Relight the Disco",
+      "year": 1977,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27309de27f44ad2343ad6127bd6"
+    },
+    {
+      "id": "tarantino-009",
+      "poolId": "tarantino",
+      "spotifyTrackId": "5wseZ5w5KzIYaz9qyKR6Mj",
+      "title": "Across 110th Street",
+      "artist": "Bobby Womack",
+      "album": "Across 110th Street - Single",
+      "year": 1972,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b0ea70d0caf344cd7b049083"
+    },
+    {
+      "id": "tarantino-010",
+      "poolId": "tarantino",
+      "spotifyTrackId": "3K0SJUQNbOkUprTFcwwAKN",
+      "title": "Jungle Boogie",
+      "artist": "Kool & The Gang",
+      "album": "Wild And Peaceful",
+      "year": 1973,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734b3787e954c118353100783c"
+    },
+    {
+      "id": "tarantino-011",
+      "poolId": "tarantino",
+      "spotifyTrackId": "1mzAVOqVSZqfbamdfIxR8m",
+      "title": "Cat People (Putting Out Fire)",
+      "artist": "David Bowie",
+      "album": "Montreal 1983",
+      "year": 1982,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735ab817983a67b084150ecc8a"
+    },
+    {
+      "id": "tarantino-012",
+      "poolId": "tarantino",
+      "spotifyTrackId": "0PH3OkM1QnIyb44VhFVbca",
+      "title": "Battle Without Honor or Humanity",
+      "artist": "Tomoyasu Hotei",
+      "album": "エレクトリック・サムライ",
+      "year": 1999,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738068e6b8fdaefa1f2a1543ea"
+    },
+    {
+      "id": "tarantino-013",
+      "poolId": "tarantino",
+      "spotifyTrackId": "3DOc99LAAeUA2mTXNjIoC9",
+      "title": "The Lonely Shepherd",
+      "artist": "Zamfir",
+      "album": "Zamfir In Scandinavia",
+      "year": 1977,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c88eaffccc2a55616bb63eda"
+    },
+    {
+      "id": "tarantino-014",
+      "poolId": "tarantino",
+      "spotifyTrackId": "5z5r28wD7Kh92eAsbKMyGG",
+      "title": "Didn't I Blow Your Mind This Time",
+      "artist": "The Delfonics",
+      "album": "La La Means I Love You (Rerecorded)",
+      "year": 1970,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27384b1319aad322eea2a821417"
+    },
+    {
+      "id": "tarantino-015",
+      "poolId": "tarantino",
+      "spotifyTrackId": "4CWUGKyUi4aJOq7tF6HAIF",
+      "title": "Street Life",
+      "artist": "Randy Crawford",
+      "album": "Jackie Brown (Music from the Miramax Motion Picture)",
+      "year": 1979,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c07df3b0ae16c214ecd796e3"
+    },
+    {
+      "id": "tarantino-016",
+      "poolId": "tarantino",
+      "spotifyTrackId": "00kvKlIvfzQLSi6T2zwXuS",
+      "title": "Strawberry Letter 23",
+      "artist": "The Brothers Johnson",
+      "album": "Right On Time",
+      "year": 1977,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273503ce073e351c0987d21eb61"
+    },
+    {
+      "id": "tarantino-017",
+      "poolId": "tarantino",
+      "spotifyTrackId": "7e8njbgEj7safbzhmHwMG2",
+      "title": "Django",
+      "artist": "Luis Bacalov",
+      "album": "Django (Original Motion Picture Soundtrack)",
+      "year": 1966,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d6d9229ca40bbdcc6eefe1d6"
+    },
+    {
+      "id": "tarantino-018",
+      "poolId": "tarantino",
+      "spotifyTrackId": "1b5YnY9AXPD6EG2puGM1TH",
+      "title": "Woo Hoo",
+      "artist": "The 5.6.7.8's",
+      "album": "Bomb The Rocks: Early Days Singles 1989-1996",
+      "year": 1998,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735bcbdcc6e156f545b22d6921"
+    },
+    {
+      "id": "tarantino-019",
+      "poolId": "tarantino",
+      "spotifyTrackId": "30RmekD1dSy913wZnryc1h",
+      "title": "Ironside",
+      "artist": "Quincy Jones",
+      "album": "Smackwater Jack",
+      "year": 1971,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27352bceb97b928c8933356aee7"
+    },
+    {
+      "id": "tarantino-020",
+      "poolId": "tarantino",
+      "spotifyTrackId": "47Zqlw3jmibtVPy8usPjBj",
+      "title": "Unchained (The Payback / Untouchable)",
+      "artist": "James Brown",
+      "album": "Quentin Tarantino’s Django Unchained Original Motion Picture Soundtrack",
+      "year": 2012,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731bb27f3850952f6beafbac4a"
+    },
+    {
+      "id": "tarantino-021",
+      "poolId": "tarantino",
+      "spotifyTrackId": "1xADYlM5rjnbJvAW2tc0qF",
+      "title": "Ain't No Grave",
+      "artist": "Johnny Cash",
+      "album": "American VI: Ain't No Grave",
+      "year": 2010,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27343d978694566927455ced3c6"
+    },
+    {
+      "id": "tarantino-022",
+      "poolId": "tarantino",
+      "spotifyTrackId": "63xdwScd1Ai1GigAwQxE8y",
+      "title": "Let's Stay Together",
+      "artist": "Al Green",
+      "album": "Let's Stay Together",
+      "year": 1972,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a1fc113a6858d0824d9aaf38"
+    },
+    {
+      "id": "tarantino-023",
+      "poolId": "tarantino",
+      "spotifyTrackId": "63CyNtKzJoXzBvhEiTsbC4",
+      "title": "Comanche",
+      "artist": "The Revels",
+      "album": "Tequila Now",
+      "year": 1959,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27301591eba69e4856272fe638d"
+    },
+    {
+      "id": "tarantino-024",
+      "poolId": "tarantino",
+      "spotifyTrackId": "3uG4ygD1bIP3YspJm9N4KO",
+      "title": "Flowers on the Wall",
+      "artist": "The Statler Brothers",
+      "album": "Flowers on the Wall",
+      "year": 1965,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273488af44687de51239df4a655"
+    },
+    {
+      "id": "tarantino-025",
+      "poolId": "tarantino",
+      "spotifyTrackId": "0SsYlkXxZ5vkWOTsKxMfMz",
+      "title": "Lonesome Town",
+      "artist": "Ricky Nelson",
+      "album": "Ricky Sings Again",
+      "year": 1958,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731643ddadb5ae034cdab6ea90"
+    },
+    {
+      "id": "tarantino-026",
+      "poolId": "tarantino",
+      "spotifyTrackId": "5b7H6zxDzyVyIt77HfcKs8",
+      "title": "If Love Is A Red Dress (Hang Me In Rags)",
+      "artist": "Maria McKee",
+      "album": "Pulp Fiction (Music From The Motion Picture)",
+      "year": 1994,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e49c89a7fc51a391fdbda374"
+    },
+    {
+      "id": "tarantino-027",
+      "poolId": "tarantino",
+      "spotifyTrackId": "7sOBuRK26Ov7CR5fRSR7Om",
+      "title": "Surf Rider",
+      "artist": "The Lively Ones",
+      "album": "Surf Rider",
+      "year": 1963,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273873cdcbb2c53dbdfda1e4252"
+    },
+    {
+      "id": "tarantino-028",
+      "poolId": "tarantino",
+      "spotifyTrackId": "4OnqJ1ml4Jgr5AAKNrrYCD",
+      "title": "Down in Mexico",
+      "artist": "The Coasters",
+      "album": "The Coasters",
+      "year": 1956,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27300d917c9f929b3af841c8c46"
+    },
+    {
+      "id": "gnr-001",
+      "poolId": "gnr",
+      "spotifyTrackId": "1MEjcagNOXLDB6DUnsE3ZL",
+      "title": "I Don't Want to Set the World on Fire",
+      "artist": "The Ink Spots",
+      "album": "Street Of Dreams",
+      "year": 1941,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d49b91db9b7d30a17bcd19d6"
+    },
+    {
+      "id": "gnr-002",
+      "poolId": "gnr",
+      "spotifyTrackId": "61Wh4cqsBmhzsEbGLNulQB",
+      "title": "Anything Goes",
+      "artist": "Cole Porter",
+      "album": "Anything Goes",
+      "year": 1934,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ce560c2ba5085953d74bee40"
+    },
+    {
+      "id": "gnr-003",
+      "poolId": "gnr",
+      "spotifyTrackId": "4mEBV9jh4klqDutCTAlKhA",
+      "title": "Maybe",
+      "artist": "The Ink Spots",
+      "album": "The Ink Spots: If I Didn't Care",
+      "year": 1940,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739e3e2bbc4adf16095ed46f17"
+    },
+    {
+      "id": "gnr-004",
+      "poolId": "gnr",
+      "spotifyTrackId": "2gPBpWddINc1sQZLlpi3gG",
+      "title": "Way Back Home",
+      "artist": "Bob Crosby",
+      "album": "Dixieland Delight",
+      "year": 1937,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273259dd752fc8f2c50ffec401c"
+    },
+    {
+      "id": "gnr-005",
+      "poolId": "gnr",
+      "spotifyTrackId": "0xfNZtM7OqQVWGOayAfyqg",
+      "title": "Into Each Life Some Rain Must Fall",
+      "artist": "Ella Fitzgerald",
+      "album": "If I Didn't Care (Restored 2024)",
+      "year": 1944,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736777f8e76b239cde0e80636e"
+    },
+    {
+      "id": "gnr-006",
+      "poolId": "gnr",
+      "spotifyTrackId": "4mQz22nF9cyWqwuErTqc6V",
+      "title": "Crazy He Calls Me",
+      "artist": "Billie Holiday",
+      "album": "Lover Man",
+      "year": 1949,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733d6c3d9f588a257c4a563050"
+    },
+    {
+      "id": "gnr-007",
+      "poolId": "gnr",
+      "spotifyTrackId": "5TbD666BVmfB61j19jKqsx",
+      "title": "Butcher Pete (Part 1)",
+      "artist": "Roy Brown",
+      "album": "The Blues Got Me Again",
+      "year": 1949,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27323e4660916d27e8e2f58fe77"
+    },
+    {
+      "id": "gnr-008",
+      "poolId": "gnr",
+      "spotifyTrackId": "5u5r6DIGSkQO2ilZrqLxhT",
+      "title": "Mighty Mighty Man",
+      "artist": "Roy Brown",
+      "album": "28 Big Ones",
+      "year": 1949,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273854198ff185236722760411a"
+    },
+    {
+      "id": "gnr-009",
+      "poolId": "gnr",
+      "spotifyTrackId": "23hL5ivCtnGehls8w09aUD",
+      "title": "Easy Living",
+      "artist": "Billie Holiday",
+      "album": "BILLIE HOLIDAY, LESTER YOUNG",
+      "year": 1937,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dcd4d6cdd9fe35467f807bd5"
+    },
+    {
+      "id": "gnr-010",
+      "poolId": "gnr",
+      "spotifyTrackId": "0wAtFj61WZQpKX3g79eyT2",
+      "title": "A Wonderful Guy",
+      "artist": "Tex Beneke",
+      "album": "My Heart Cries",
+      "year": 1949,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ed6fe94937863bdfca8536d"
+    },
+    {
+      "id": "gnr-011",
+      "poolId": "gnr",
+      "spotifyTrackId": "016uvQ8sz4BQqNzvhXILor",
+      "title": "Civilization (Bongo, Bongo, Bongo)",
+      "artist": "Danny Kaye",
+      "album": "Kaye, Danny: Danny Kaye! (1941-1952)",
+      "year": 1947,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8abca78fea6fc2b0a83b019"
+    },
+    {
+      "id": "gnr-012",
+      "poolId": "gnr",
+      "spotifyTrackId": "6QS3bnUy5Y6nFOAUmyMam0",
+      "title": "Uranium Fever",
+      "artist": "Elton Britt",
+      "album": "High Country Postcard",
+      "year": 1947,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739ce55e567621aeec89e562ba"
+    },
+    {
+      "id": "gnr-013",
+      "poolId": "gnr",
+      "spotifyTrackId": "0jEzevn8nsUrlkeuBAgS1B",
+      "title": "Let's Go Sunning",
+      "artist": "Jack Shaindlin",
+      "album": "Dance Orchestra",
+      "year": 1946,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e065f8c0786fcd2352e7c966"
+    },
+    {
+      "id": "gnr-014",
+      "poolId": "gnr",
+      "spotifyTrackId": "06ZIoW7NcfjI9i7sasxHYq",
+      "title": "I'm Tickled Pink",
+      "artist": "Jack Shaindlin",
+      "album": "Dance Orchestra",
+      "year": 1950,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e065f8c0786fcd2352e7c966"
     }
   ]
 }

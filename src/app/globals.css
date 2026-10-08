@@ -246,3 +246,27 @@ input {
   max-width: 100%;
   height: auto;
 }
+
+@keyframes t-needle {
+  0%, 100% { transform: rotate(-26deg); }
+  35% { transform: rotate(18deg); }
+  70% { transform: rotate(-8deg); }
+}
+.t-needle { animation: t-needle 5s ease-in-out infinite; transform-origin: 50% 100%; transform-box: fill-box; }
+
+@keyframes t-clap {
+  0%, 70%, 100% { transform: rotate(0deg); }
+  80% { transform: rotate(-22deg); }
+}
+.t-clap { animation: t-clap 2.4s ease-in-out infinite; transform-origin: 0% 100%; transform-box: fill-box; }
+
+@keyframes t-bulb { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+.t-bulb-a { animation: t-bulb 1s steps(2, jump-none) infinite; }
+.t-bulb-b { animation: t-bulb 1s steps(2, jump-none) infinite reverse; }
+
+@keyframes t-throb { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+.t-throb { animation: t-throb 0.5s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+
+@media (prefers-reduced-motion: reduce) {
+  .t-needle, .t-clap, .t-bulb-a, .t-bulb-b, .t-throb { animation: none; }
+}

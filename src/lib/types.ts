@@ -7,7 +7,15 @@ export type ThemeId =
   | "reel-beige"
   | "turntable-orange"
   | "cassette-pixel"
-  | "dictaphone-red";
+  | "dictaphone-red"
+  | "jukebox-wood"
+  | "neon-grid"
+  | "boombox-90s"
+  | "cinema-marquee"
+  | "cinema-curtain"
+  | "arcade-gamepad"
+  | "grindhouse-film"
+  | "pipboy-radio";
 
 export type Pool = {
   id: string;
@@ -18,6 +26,8 @@ export type Pool = {
   theme?: ThemeId;
   era?: string;
   genre?: string;
+  /** Gruppe auf der Landing, z. B. "Jahrzehnte". */
+  group?: string;
   /** Kategorien nach dem Interpreten, in dieser Reihenfolge. Default: album, year. */
   extraCategories?: GuessCategory[];
 };

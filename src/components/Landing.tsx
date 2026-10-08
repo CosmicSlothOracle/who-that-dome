@@ -20,6 +20,12 @@ export function Landing() {
   const params = useSearchParams();
   const [match] = useMatch();
   const pools = playablePools();
+  const groups = Object.entries(
+    pools.reduce<Record<string, typeof pools>>((acc, pool) => {
+      (acc[pool.group ?? "Weitere"] ??= []).push(pool);
+      return acc;
+    }, {}),
+  );
   const reason = params.get("reason");
   const authError = params.get("auth") === "error" ? AUTH_ERRORS[reason ?? ""] ?? "Spotify-Login fehlgeschlagen." : null;
   const resumePool = match && match.phase !== "finished" ? getPool(match.poolId) : undefined;
@@ -50,34 +56,38 @@ export function Landing() {
           </Link>
         )}
 
-        <h2 className="mt-8 text-sm tracking-[0.25em]" style={{ color: "var(--t-muted)" }}>
-          Playlist wählen
-        </h2>
-        <ul className="mt-3 grid grid-cols-2 gap-3">
-          {pools.map((pool) => {
-            const theme = themeFor(pool);
-            const count = getSongs([pool.id]).length;
-            return (
-              <li key={pool.id} className="h-full">
-                <Link href={`/play?pool=${encodeURIComponent(pool.id)}`} className="block h-full">
-                  <ThemeScope theme={theme} className="!min-h-full h-full overflow-hidden rounded-[var(--t-radius)]">
-                    <div className="flex h-full min-h-[270px] flex-col justify-between p-3">
-                      <div className="grid h-[150px] shrink-0 place-items-center">
-                        <Device theme={theme.id} playing={false} size={140} />
-                      </div>
-                      <div>
-                        <strong className="block text-lg leading-tight">{pool.name}</strong>
-                        <span className="block text-xs" style={{ color: "var(--t-muted)" }}>
-                          {[pool.era, pool.genre].filter(Boolean).join(" · ")} · {count} Songs
-                        </span>
-                      </div>
-                    </div>
-                  </ThemeScope>
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+        {groups.map(([group, groupPools]) => (
+          <section key={group}>
+            <h2 className="mt-8 text-sm tracking-[0.25em]" style={{ color: "var(--t-muted)" }}>
+              {group}
+            </h2>
+            <ul className="mt-3 grid grid-cols-2 gap-3">
+              {groupPools.map((pool) => {
+                const theme = themeFor(pool);
+                const count = getSongs([pool.id]).length;
+                return (
+                  <li key={pool.id} className="h-full">
+                    <Link href={`/play?pool=${encodeURIComponent(pool.id)}`} className="block h-full">
+                      <ThemeScope theme={theme} className="!min-h-full h-full overflow-hidden rounded-[var(--t-radius)]">
+                        <div className="flex h-full min-h-[270px] flex-col justify-between p-3">
+                          <div className="grid h-[150px] shrink-0 place-items-center">
+                            <Device theme={theme.id} playing={false} size={140} />
+                          </div>
+                          <div>
+                            <strong className="block text-lg leading-tight">{pool.name}</strong>
+                            <span className="block text-xs" style={{ color: "var(--t-muted)" }}>
+                              {[pool.era, pool.genre].filter(Boolean).join(" · ")} · {count} Songs
+                            </span>
+                          </div>
+                        </div>
+                      </ThemeScope>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        ))}
 
         <nav className="mt-auto flex gap-4 pt-10 text-xs tracking-widest" style={{ color: "var(--t-muted)" }}>
           <Link href="/regeln" className="underline">Regeln</Link>

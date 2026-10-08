@@ -1,0 +1,1627 @@
+[
+ {
+  "id": "60er",
+  "name": "60er Hits",
+  "description": "Beatles, Stones, Motown: die Klassiker der Sechziger.",
+  "theme": "reel-beige",
+  "era": "1960er",
+  "genre": "Rock & Soul",
+  "group": "Jahrzehnte",
+  "extra": [
+   "album",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "Hey Jude",
+    "artist": "The Beatles",
+    "year": 1968
+   },
+   {
+    "title": "(I Can't Get No) Satisfaction",
+    "artist": "The Rolling Stones",
+    "year": 1965
+   },
+   {
+    "title": "Respect",
+    "artist": "Aretha Franklin",
+    "year": 1967
+   },
+   {
+    "title": "My Girl",
+    "artist": "The Temptations",
+    "year": 1964
+   },
+   {
+    "title": "Good Vibrations",
+    "artist": "The Beach Boys",
+    "year": 1966
+   },
+   {
+    "title": "Light My Fire",
+    "artist": "The Doors",
+    "year": 1967
+   },
+   {
+    "title": "Purple Haze",
+    "artist": "Jimi Hendrix",
+    "year": 1967
+   },
+   {
+    "title": "Mrs. Robinson",
+    "artist": "Simon & Garfunkel",
+    "year": 1968
+   },
+   {
+    "title": "Sunshine Of Your Love",
+    "artist": "Cream",
+    "year": 1967
+   },
+   {
+    "title": "Paint It, Black",
+    "artist": "The Rolling Stones",
+    "year": 1966
+   },
+   {
+    "title": "Like a Rolling Stone",
+    "artist": "Bob Dylan",
+    "year": 1965
+   },
+   {
+    "title": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "year": 1967
+   },
+   {
+    "title": "Twist And Shout",
+    "artist": "The Beatles",
+    "year": 1963
+   },
+   {
+    "title": "I Got You (I Feel Good)",
+    "artist": "James Brown",
+    "year": 1964
+   },
+   {
+    "title": "California Dreamin'",
+    "artist": "The Mamas & The Papas",
+    "year": 1965
+   },
+   {
+    "title": "House of the Rising Sun",
+    "artist": "The Animals",
+    "year": 1964
+   },
+   {
+    "title": "Oh, Pretty Woman",
+    "artist": "Roy Orbison",
+    "year": 1964
+   },
+   {
+    "title": "(Sittin' On) The Dock Of The Bay",
+    "artist": "Otis Redding",
+    "year": 1968
+   },
+   {
+    "title": "Born To Be Wild",
+    "artist": "Steppenwolf",
+    "year": 1968
+   },
+   {
+    "title": "Space Oddity",
+    "artist": "David Bowie",
+    "year": 1969
+   },
+   {
+    "title": "Come Together",
+    "artist": "The Beatles",
+    "year": 1969
+   },
+   {
+    "title": "Fortunate Son",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1969
+   },
+   {
+    "title": "Wild Thing",
+    "artist": "The Troggs",
+    "year": 1966
+   },
+   {
+    "title": "You Really Got Me",
+    "artist": "The Kinks",
+    "year": 1964
+   },
+   {
+    "title": "Suspicious Minds",
+    "artist": "Elvis Presley",
+    "year": 1969
+   }
+  ]
+ },
+ {
+  "id": "70er",
+  "name": "70er Hits",
+  "description": "Disco, Stadionrock und Singer-Songwriter.",
+  "theme": "jukebox-wood",
+  "era": "1970er",
+  "genre": "Rock & Disco",
+  "group": "Jahrzehnte",
+  "extra": [
+   "album",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "year": 1975
+   },
+   {
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "year": 1971
+   },
+   {
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "year": 1976
+   },
+   {
+    "title": "Dancing Queen",
+    "artist": "ABBA",
+    "year": 1976
+   },
+   {
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees",
+    "year": 1977
+   },
+   {
+    "title": "Imagine",
+    "artist": "John Lennon",
+    "year": 1971
+   },
+   {
+    "title": "Smoke on the Water",
+    "artist": "Deep Purple",
+    "year": 1972
+   },
+   {
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "year": 1970
+   },
+   {
+    "title": "Superstition",
+    "artist": "Stevie Wonder",
+    "year": 1972
+   },
+   {
+    "title": "Highway to Hell",
+    "artist": "AC/DC",
+    "year": 1979
+   },
+   {
+    "title": "Another Brick in the Wall, Pt. 2",
+    "artist": "Pink Floyd",
+    "year": 1979
+   },
+   {
+    "title": "I Will Survive",
+    "artist": "Gloria Gaynor",
+    "year": 1978
+   },
+   {
+    "title": "Walk on the Wild Side",
+    "artist": "Lou Reed",
+    "year": 1972
+   },
+   {
+    "title": "Life on Mars?",
+    "artist": "David Bowie",
+    "year": 1971
+   },
+   {
+    "title": "Born to Run",
+    "artist": "Bruce Springsteen",
+    "year": 1975
+   },
+   {
+    "title": "September",
+    "artist": "Earth, Wind & Fire",
+    "year": 1978
+   },
+   {
+    "title": "Le Freak",
+    "artist": "CHIC",
+    "year": 1978
+   },
+   {
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "year": 1978
+   },
+   {
+    "title": "Sweet Home Alabama",
+    "artist": "Lynyrd Skynyrd",
+    "year": 1974
+   },
+   {
+    "title": "Take Me Home, Country Roads",
+    "artist": "John Denver",
+    "year": 1971
+   },
+   {
+    "title": "Layla",
+    "artist": "Derek & The Dominos",
+    "year": 1970
+   },
+   {
+    "title": "Rocket Man",
+    "artist": "Elton John",
+    "year": 1972
+   },
+   {
+    "title": "Heart Of Glass",
+    "artist": "Blondie",
+    "year": 1978
+   },
+   {
+    "title": "Paranoid",
+    "artist": "Black Sabbath",
+    "year": 1970
+   },
+   {
+    "title": "Knockin' On Heaven's Door",
+    "artist": "Bob Dylan",
+    "year": 1973
+   }
+  ]
+ },
+ {
+  "id": "80er",
+  "name": "80er Hits",
+  "description": "Synthesizer, Stadionhymnen und MTV.",
+  "theme": "neon-grid",
+  "era": "1980er",
+  "genre": "Pop & Rock",
+  "group": "Jahrzehnte",
+  "extra": [
+   "album",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "year": 1982
+   },
+   {
+    "title": "Take On Me",
+    "artist": "a-ha",
+    "year": 1985
+   },
+   {
+    "title": "Sweet Dreams (Are Made Of This)",
+    "artist": "Eurythmics",
+    "year": 1983
+   },
+   {
+    "title": "Every Breath You Take",
+    "artist": "The Police",
+    "year": 1983
+   },
+   {
+    "title": "Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "year": 1983
+   },
+   {
+    "title": "Livin' On A Prayer",
+    "artist": "Bon Jovi",
+    "year": 1986
+   },
+   {
+    "title": "With or Without You",
+    "artist": "U2",
+    "year": 1987
+   },
+   {
+    "title": "Like a Prayer",
+    "artist": "Madonna",
+    "year": 1989
+   },
+   {
+    "title": "Never Gonna Give You Up",
+    "artist": "Rick Astley",
+    "year": 1987
+   },
+   {
+    "title": "Africa",
+    "artist": "TOTO",
+    "year": 1982
+   },
+   {
+    "title": "Don't You (Forget About Me)",
+    "artist": "Simple Minds",
+    "year": 1985
+   },
+   {
+    "title": "Wake Me Up Before You Go-Go",
+    "artist": "Wham!",
+    "year": 1984
+   },
+   {
+    "title": "Purple Rain",
+    "artist": "Prince",
+    "year": 1984
+   },
+   {
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "year": 1987
+   },
+   {
+    "title": "Thriller",
+    "artist": "Michael Jackson",
+    "year": 1982
+   },
+   {
+    "title": "Eye of the Tiger",
+    "artist": "Survivor",
+    "year": 1982
+   },
+   {
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "year": 1981
+   },
+   {
+    "title": "Under Pressure",
+    "artist": "Queen",
+    "year": 1981
+   },
+   {
+    "title": "Walk Like an Egyptian",
+    "artist": "The Bangles",
+    "year": 1986
+   },
+   {
+    "title": "Tainted Love",
+    "artist": "Soft Cell",
+    "year": 1981
+   },
+   {
+    "title": "Blue Monday",
+    "artist": "New Order",
+    "year": 1983
+   },
+   {
+    "title": "Careless Whisper",
+    "artist": "George Michael",
+    "year": 1984
+   },
+   {
+    "title": "Karma Chameleon",
+    "artist": "Culture Club",
+    "year": 1983
+   },
+   {
+    "title": "99 Luftballons",
+    "artist": "Nena",
+    "year": 1983
+   },
+   {
+    "title": "Run to the Hills",
+    "artist": "Iron Maiden",
+    "year": 1982
+   }
+  ]
+ },
+ {
+  "id": "90er",
+  "name": "90er Hits",
+  "description": "Grunge, Boygroups, Eurodance und Hip-Hop.",
+  "theme": "boombox-90s",
+  "era": "1990er",
+  "genre": "Pop, Rock & Dance",
+  "group": "Jahrzehnte",
+  "extra": [
+   "album",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "year": 1991
+   },
+   {
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "year": 1995
+   },
+   {
+    "title": "...Baby One More Time",
+    "artist": "Britney Spears",
+    "year": 1998
+   },
+   {
+    "title": "I Want It That Way",
+    "artist": "Backstreet Boys",
+    "year": 1999
+   },
+   {
+    "title": "Wannabe",
+    "artist": "Spice Girls",
+    "year": 1996
+   },
+   {
+    "title": "No Scrubs",
+    "artist": "TLC",
+    "year": 1999
+   },
+   {
+    "title": "Waterfalls",
+    "artist": "TLC",
+    "year": 1994
+   },
+   {
+    "title": "Gangsta's Paradise",
+    "artist": "Coolio",
+    "year": 1995
+   },
+   {
+    "title": "Losing My Religion",
+    "artist": "R.E.M.",
+    "year": 1991
+   },
+   {
+    "title": "Creep",
+    "artist": "Radiohead",
+    "year": 1992
+   },
+   {
+    "title": "Torn",
+    "artist": "Natalie Imbruglia",
+    "year": 1997
+   },
+   {
+    "title": "Everybody (Backstreet's Back)",
+    "artist": "Backstreet Boys",
+    "year": 1997
+   },
+   {
+    "title": "Pretty Fly (For A White Guy)",
+    "artist": "The Offspring",
+    "year": 1998
+   },
+   {
+    "title": "Zombie",
+    "artist": "The Cranberries",
+    "year": 1994
+   },
+   {
+    "title": "Black Hole Sun",
+    "artist": "Soundgarden",
+    "year": 1994
+   },
+   {
+    "title": "Killing In The Name",
+    "artist": "Rage Against The Machine",
+    "year": 1992
+   },
+   {
+    "title": "Basket Case",
+    "artist": "Green Day",
+    "year": 1994
+   },
+   {
+    "title": "Vogue",
+    "artist": "Madonna",
+    "year": 1990
+   },
+   {
+    "title": "Ice Ice Baby",
+    "artist": "Vanilla Ice",
+    "year": 1990
+   },
+   {
+    "title": "U Can't Touch This",
+    "artist": "MC Hammer",
+    "year": 1990
+   },
+   {
+    "title": "Informer",
+    "artist": "Snow",
+    "year": 1992
+   },
+   {
+    "title": "What Is Love",
+    "artist": "Haddaway",
+    "year": 1993
+   },
+   {
+    "title": "Rhythm Is A Dancer",
+    "artist": "SNAP!",
+    "year": 1992
+   },
+   {
+    "title": "Mambo No. 5 (A Little Bit of...)",
+    "artist": "Lou Bega",
+    "year": 1999
+   },
+   {
+    "title": "Friday I'm In Love",
+    "artist": "The Cure",
+    "year": 1992
+   },
+   {
+    "title": "Bitter Sweet Symphony",
+    "artist": "The Verve",
+    "year": 1997
+   },
+   {
+    "title": "Barbie Girl",
+    "artist": "Aqua",
+    "year": 1997
+   }
+  ]
+ },
+ {
+  "id": "2000er",
+  "name": "2000er Hits",
+  "description": "Der Sound der Nuller: Pop, Hip-Hop und Indie-Rock.",
+  "theme": "speaker-yellow",
+  "era": "2000er",
+  "genre": "Pop & Hip-Hop",
+  "group": "Jahrzehnte",
+  "extra": [
+   "album",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "Hey Ya!",
+    "artist": "Outkast",
+    "year": 2003
+   },
+   {
+    "title": "Crazy In Love",
+    "artist": "Beyoncé",
+    "year": 2003
+   },
+   {
+    "title": "Mr. Brightside",
+    "artist": "The Killers",
+    "year": 2004
+   },
+   {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "year": 2003
+   },
+   {
+    "title": "Yeah!",
+    "artist": "Usher",
+    "year": 2004
+   },
+   {
+    "title": "In Da Club",
+    "artist": "50 Cent",
+    "year": 2003
+   },
+   {
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "year": 2002
+   },
+   {
+    "title": "Toxic",
+    "artist": "Britney Spears",
+    "year": 2003
+   },
+   {
+    "title": "Since U Been Gone",
+    "artist": "Kelly Clarkson",
+    "year": 2004
+   },
+   {
+    "title": "Umbrella",
+    "artist": "Rihanna",
+    "year": 2007
+   },
+   {
+    "title": "Rehab",
+    "artist": "Amy Winehouse",
+    "year": 2006
+   },
+   {
+    "title": "Clocks",
+    "artist": "Coldplay",
+    "year": 2002
+   },
+   {
+    "title": "Boulevard of Broken Dreams",
+    "artist": "Green Day",
+    "year": 2004
+   },
+   {
+    "title": "Numb",
+    "artist": "Linkin Park",
+    "year": 2003
+   },
+   {
+    "title": "Hips Don't Lie",
+    "artist": "Shakira",
+    "year": 2006
+   },
+   {
+    "title": "SexyBack",
+    "artist": "Justin Timberlake",
+    "year": 2006
+   },
+   {
+    "title": "Bad Day",
+    "artist": "Daniel Powter",
+    "year": 2005
+   },
+   {
+    "title": "Hung Up",
+    "artist": "Madonna",
+    "year": 2005
+   },
+   {
+    "title": "Gold Digger",
+    "artist": "Kanye West",
+    "year": 2005
+   },
+   {
+    "title": "Dani California",
+    "artist": "Red Hot Chili Peppers",
+    "year": 2006
+   },
+   {
+    "title": "Take Me Out",
+    "artist": "Franz Ferdinand",
+    "year": 2004
+   },
+   {
+    "title": "Float On",
+    "artist": "Modest Mouse",
+    "year": 2004
+   },
+   {
+    "title": "Complicated",
+    "artist": "Avril Lavigne",
+    "year": 2002
+   },
+   {
+    "title": "How You Remind Me",
+    "artist": "Nickelback",
+    "year": 2001
+   },
+   {
+    "title": "Beautiful Day",
+    "artist": "U2",
+    "year": 2000
+   },
+   {
+    "title": "Fix You",
+    "artist": "Coldplay",
+    "year": 2005
+   }
+  ]
+ },
+ {
+  "id": "2010er",
+  "name": "2010er Hits",
+  "description": "Streaming-Ära: Pop, EDM und Trap.",
+  "theme": "dictaphone-red",
+  "era": "2010er",
+  "genre": "Pop & EDM",
+  "group": "Jahrzehnte",
+  "extra": [
+   "album",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "year": 2010
+   },
+   {
+    "title": "Happy",
+    "artist": "Pharrell Williams",
+    "year": 2013
+   },
+   {
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson",
+    "year": 2014
+   },
+   {
+    "title": "Get Lucky",
+    "artist": "Daft Punk",
+    "year": 2013
+   },
+   {
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "year": 2017
+   },
+   {
+    "title": "Someone Like You",
+    "artist": "Adele",
+    "year": 2011
+   },
+   {
+    "title": "Party Rock Anthem",
+    "artist": "LMFAO",
+    "year": 2011
+   },
+   {
+    "title": "Call Me Maybe",
+    "artist": "Carly Rae Jepsen",
+    "year": 2012
+   },
+   {
+    "title": "Gangnam Style",
+    "artist": "PSY",
+    "year": 2012
+   },
+   {
+    "title": "Somebody That I Used To Know",
+    "artist": "Gotye",
+    "year": 2011
+   },
+   {
+    "title": "Radioactive",
+    "artist": "Imagine Dragons",
+    "year": 2012
+   },
+   {
+    "title": "Royals",
+    "artist": "Lorde",
+    "year": 2013
+   },
+   {
+    "title": "Wake Me Up",
+    "artist": "Avicii",
+    "year": 2013
+   },
+   {
+    "title": "Counting Stars",
+    "artist": "OneRepublic",
+    "year": 2013
+   },
+   {
+    "title": "All of Me",
+    "artist": "John Legend",
+    "year": 2013
+   },
+   {
+    "title": "Shake It Off",
+    "artist": "Taylor Swift",
+    "year": 2014
+   },
+   {
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "year": 2014
+   },
+   {
+    "title": "Can't Stop the Feeling!",
+    "artist": "Justin Timberlake",
+    "year": 2016
+   },
+   {
+    "title": "Closer",
+    "artist": "The Chainsmokers",
+    "year": 2016
+   },
+   {
+    "title": "Despacito",
+    "artist": "Luis Fonsi",
+    "year": 2017
+   },
+   {
+    "title": "Old Town Road",
+    "artist": "Lil Nas X",
+    "year": 2019
+   },
+   {
+    "title": "bad guy",
+    "artist": "Billie Eilish",
+    "year": 2019
+   },
+   {
+    "title": "Sunflower - Spider-Man: Into the Spider-Verse",
+    "artist": "Post Malone",
+    "year": 2018
+   },
+   {
+    "title": "Stressed Out",
+    "artist": "twenty one pilots",
+    "year": 2015
+   },
+   {
+    "title": "Hello",
+    "artist": "Adele",
+    "year": 2015
+   },
+   {
+    "title": "Sorry",
+    "artist": "Justin Bieber",
+    "year": 2015
+   },
+   {
+    "title": "God's Plan",
+    "artist": "Drake",
+    "year": 2018
+   }
+  ]
+ },
+ {
+  "id": "2020er",
+  "name": "2020er Hits",
+  "description": "TikTok-Jahre: die Hits seit 2020.",
+  "theme": "cassette-pixel",
+  "era": "2020er",
+  "genre": "Pop",
+  "group": "Jahrzehnte",
+  "extra": [
+   "album",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "year": 2020
+   },
+   {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "year": 2020
+   },
+   {
+    "title": "drivers license",
+    "artist": "Olivia Rodrigo",
+    "year": 2021
+   },
+   {
+    "title": "good 4 u",
+    "artist": "Olivia Rodrigo",
+    "year": 2021
+   },
+   {
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "year": 2022
+   },
+   {
+    "title": "Flowers",
+    "artist": "Miley Cyrus",
+    "year": 2023
+   },
+   {
+    "title": "Anti-Hero",
+    "artist": "Taylor Swift",
+    "year": 2022
+   },
+   {
+    "title": "Heat Waves",
+    "artist": "Glass Animals",
+    "year": 2020
+   },
+   {
+    "title": "STAY (with Justin Bieber)",
+    "artist": "The Kid LAROI",
+    "year": 2021
+   },
+   {
+    "title": "Easy On Me",
+    "artist": "Adele",
+    "year": 2021
+   },
+   {
+    "title": "Shivers",
+    "artist": "Ed Sheeran",
+    "year": 2021
+   },
+   {
+    "title": "Bad Habits",
+    "artist": "Ed Sheeran",
+    "year": 2021
+   },
+   {
+    "title": "Save Your Tears",
+    "artist": "The Weeknd",
+    "year": 2020
+   },
+   {
+    "title": "MONTERO (Call Me By Your Name)",
+    "artist": "Lil Nas X",
+    "year": 2021
+   },
+   {
+    "title": "INDUSTRY BABY",
+    "artist": "Lil Nas X",
+    "year": 2021
+   },
+   {
+    "title": "Peaches",
+    "artist": "Justin Bieber",
+    "year": 2021
+   },
+   {
+    "title": "Kiss Me More",
+    "artist": "Doja Cat",
+    "year": 2021
+   },
+   {
+    "title": "vampire",
+    "artist": "Olivia Rodrigo",
+    "year": 2023
+   },
+   {
+    "title": "Espresso",
+    "artist": "Sabrina Carpenter",
+    "year": 2024
+   },
+   {
+    "title": "Please Please Please",
+    "artist": "Sabrina Carpenter",
+    "year": 2024
+   },
+   {
+    "title": "Not Like Us",
+    "artist": "Kendrick Lamar",
+    "year": 2024
+   },
+   {
+    "title": "Tití Me Preguntó",
+    "artist": "Bad Bunny",
+    "year": 2022
+   },
+   {
+    "title": "Calm Down",
+    "artist": "Rema",
+    "year": 2022
+   },
+   {
+    "title": "Unholy",
+    "artist": "Sam Smith",
+    "year": 2022
+   },
+   {
+    "title": "Kill Bill",
+    "artist": "SZA",
+    "year": 2022
+   },
+   {
+    "title": "Paint The Town Red",
+    "artist": "Doja Cat",
+    "year": 2023
+   }
+  ]
+ },
+ {
+  "id": "film-90er",
+  "name": "Filmsongs der 90er",
+  "description": "Titelsongs und Hymnen aus Kinofilmen der Neunziger.",
+  "theme": "cinema-marquee",
+  "era": "1990er",
+  "genre": "Filmmusik",
+  "group": "Film & Games",
+  "extra": [
+   "title",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "My Heart Will Go On",
+    "artist": "Céline Dion",
+    "year": 1997
+   },
+   {
+    "title": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "year": 1992
+   },
+   {
+    "title": "Gangsta's Paradise",
+    "artist": "Coolio",
+    "year": 1995
+   },
+   {
+    "title": "Kiss from a Rose",
+    "artist": "Seal",
+    "year": 1994
+   },
+   {
+    "title": "I Don't Want to Miss a Thing",
+    "artist": "Aerosmith",
+    "year": 1998
+   },
+   {
+    "title": "Streets of Philadelphia",
+    "artist": "Bruce Springsteen",
+    "year": 1993
+   },
+   {
+    "title": "Men In Black",
+    "artist": "Will Smith",
+    "year": 1997
+   },
+   {
+    "title": "Wild Wild West",
+    "artist": "Will Smith",
+    "year": 1999
+   },
+   {
+    "title": "Colors of the Wind",
+    "artist": "Vanessa Williams",
+    "year": 1995
+   },
+   {
+    "title": "Circle of Life",
+    "artist": "Elton John",
+    "year": 1994
+   },
+   {
+    "title": "Can You Feel the Love Tonight",
+    "artist": "Elton John",
+    "year": 1994
+   },
+   {
+    "title": "A Whole New World",
+    "artist": "Peter Cetera",
+    "year": 1992
+   },
+   {
+    "title": "Beauty and the Beast",
+    "artist": "Céline Dion",
+    "year": 1991
+   },
+   {
+    "title": "Iris",
+    "artist": "Goo Goo Dolls",
+    "year": 1998
+   },
+   {
+    "title": "(Everything I Do) I Do It for You",
+    "artist": "Bryan Adams",
+    "year": 1991
+   },
+   {
+    "title": "Because You Loved Me",
+    "artist": "Céline Dion",
+    "year": 1996
+   },
+   {
+    "title": "GoldenEye",
+    "artist": "Tina Turner",
+    "year": 1995
+   },
+   {
+    "title": "Tomorrow Never Dies",
+    "artist": "Sheryl Crow",
+    "year": 1997
+   },
+   {
+    "title": "The World Is Not Enough",
+    "artist": "Garbage",
+    "year": 1999
+   },
+   {
+    "title": "Wake Up",
+    "artist": "Rage Against The Machine",
+    "year": 1992
+   }
+  ]
+ },
+ {
+  "id": "film-2000er",
+  "name": "Filmsongs der 2000er",
+  "description": "Songs, die durch Kinofilme der Nullerjahre berühmt wurden.",
+  "theme": "cinema-curtain",
+  "era": "2000er",
+  "genre": "Filmmusik",
+  "group": "Film & Games",
+  "extra": [
+   "title",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "year": 2002
+   },
+   {
+    "title": "Accidentally In Love",
+    "artist": "Counting Crows",
+    "year": 2004
+   },
+   {
+    "title": "All Star",
+    "artist": "Smash Mouth",
+    "year": 1999
+   },
+   {
+    "title": "Into the West",
+    "artist": "Annie Lennox",
+    "year": 2003
+   },
+   {
+    "title": "May It Be",
+    "artist": "Enya",
+    "year": 2001
+   },
+   {
+    "title": "You Know My Name",
+    "artist": "Chris Cornell",
+    "year": 2006
+   },
+   {
+    "title": "Mad World",
+    "artist": "Gary Jules",
+    "year": 2001
+   },
+   {
+    "title": "Hero",
+    "artist": "Chad Kroeger",
+    "year": 2002
+   },
+   {
+    "title": "Supermassive Black Hole",
+    "artist": "Muse",
+    "year": 2006
+   },
+   {
+    "title": "Decode",
+    "artist": "Paramore",
+    "year": 2008
+   },
+   {
+    "title": "Lady Marmalade",
+    "artist": "Christina Aguilera",
+    "year": 2001
+   },
+   {
+    "title": "Falling Slowly",
+    "artist": "Glen Hansard",
+    "year": 2006
+   },
+   {
+    "title": "New Slang",
+    "artist": "The Shins",
+    "year": 2001
+   },
+   {
+    "title": "Anyone Else But You",
+    "artist": "The Moldy Peaches",
+    "year": 2001
+   },
+   {
+    "title": "Out of Reach",
+    "artist": "Gabrielle",
+    "year": 2001
+   },
+   {
+    "title": "Now We Are Free",
+    "artist": "Hans Zimmer",
+    "year": 2000
+   },
+   {
+    "title": "When She Loved Me",
+    "artist": "Sarah McLachlan",
+    "year": 1999
+   },
+   {
+    "title": "Real Gone",
+    "artist": "Sheryl Crow",
+    "year": 2006
+   },
+   {
+    "title": "Life Is A Highway",
+    "artist": "Rascal Flatts",
+    "year": 2006
+   },
+   {
+    "title": "If I Didn't Have You",
+    "artist": "Billy Crystal",
+    "year": 2001
+   },
+   {
+    "title": "He's a Pirate",
+    "artist": "Klaus Badelt",
+    "year": 2003
+   }
+  ]
+ },
+ {
+  "id": "games-2000er",
+  "name": "Games der 2000er",
+  "description": "Songs aus GTA, Tony Hawk, Guitar Hero, Need for Speed und Portal.",
+  "theme": "arcade-gamepad",
+  "era": "2000er",
+  "genre": "Videospiele",
+  "group": "Film & Games",
+  "extra": [
+   "title",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "Welcome To The Jungle",
+    "artist": "Guns N' Roses",
+    "year": 1987
+   },
+   {
+    "title": "California Love",
+    "artist": "2Pac",
+    "year": 1995
+   },
+   {
+    "title": "Nuthin' But A \"G\" Thang",
+    "artist": "Dr. Dre",
+    "year": 1992
+   },
+   {
+    "title": "Self Control",
+    "artist": "Laura Branigan",
+    "year": 1984
+   },
+   {
+    "title": "Video Killed The Radio Star",
+    "artist": "The Buggles",
+    "year": 1979
+   },
+   {
+    "title": "Broken Wings",
+    "artist": "Mr. Mister",
+    "year": 1985
+   },
+   {
+    "title": "Superman",
+    "artist": "Goldfinger",
+    "year": 1996
+   },
+   {
+    "title": "Guerrilla Radio",
+    "artist": "Rage Against The Machine",
+    "year": 1999
+   },
+   {
+    "title": "Police Truck",
+    "artist": "Dead Kennedys",
+    "year": 1980
+   },
+   {
+    "title": "Jerry Was A Race Car Driver",
+    "artist": "Primus",
+    "year": 1991
+   },
+   {
+    "title": "Cyco Vision",
+    "artist": "Suicidal Tendencies",
+    "year": 1992
+   },
+   {
+    "title": "Still Alive",
+    "artist": "Jonathan Coulton",
+    "year": 2007
+   },
+   {
+    "title": "Want You Gone",
+    "artist": "Jonathan Coulton",
+    "year": 2011
+   },
+   {
+    "title": "Get Low",
+    "artist": "Lil Jon & The East Side Boyz",
+    "year": 2003
+   },
+   {
+    "title": "Riders on the Storm",
+    "artist": "Snoop Dogg",
+    "year": 2004
+   },
+   {
+    "title": "Carry On Wayward Son",
+    "artist": "Kansas",
+    "year": 1976
+   },
+   {
+    "title": "Free Bird",
+    "artist": "Lynyrd Skynyrd",
+    "year": 1973
+   },
+   {
+    "title": "Bark at the Moon",
+    "artist": "Ozzy Osbourne",
+    "year": 1983
+   },
+   {
+    "title": "I Love Rock 'N Roll",
+    "artist": "Joan Jett & the Blackhearts",
+    "year": 1981
+   },
+   {
+    "title": "Symphony Of Destruction",
+    "artist": "Megadeth",
+    "year": 1992
+   },
+   {
+    "title": "Search and Destroy",
+    "artist": "Iggy & The Stooges",
+    "year": 1973
+   },
+   {
+    "title": "Song 2",
+    "artist": "Blur",
+    "year": 1997
+   }
+  ]
+ },
+ {
+  "id": "tarantino",
+  "name": "Tarantino",
+  "description": "Songs aus den Filmen von Quentin Tarantino.",
+  "theme": "grindhouse-film",
+  "era": "1950er–2010er",
+  "genre": "Soundtrack",
+  "group": "Film & Games",
+  "extra": [
+   "title",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "Little Green Bag",
+    "artist": "George Baker Selection",
+    "year": 1969
+   },
+   {
+    "title": "Stuck in the Middle with You",
+    "artist": "Stealers Wheel",
+    "year": 1972
+   },
+   {
+    "title": "Misirlou",
+    "artist": "Dick Dale & His Del-Tones",
+    "year": 1962
+   },
+   {
+    "title": "Son of a Preacher Man",
+    "artist": "Dusty Springfield",
+    "year": 1968
+   },
+   {
+    "title": "You Never Can Tell",
+    "artist": "Chuck Berry",
+    "year": 1964
+   },
+   {
+    "title": "Girl, You'll Be a Woman Soon",
+    "artist": "Urge Overkill",
+    "year": 1992
+   },
+   {
+    "title": "Bang Bang (My Baby Shot Me Down)",
+    "artist": "Nancy Sinatra",
+    "year": 1966
+   },
+   {
+    "title": "Don't Let Me Be Misunderstood",
+    "artist": "Santa Esmeralda",
+    "year": 1977
+   },
+   {
+    "title": "Across 110th Street",
+    "artist": "Bobby Womack",
+    "year": 1972
+   },
+   {
+    "title": "Jungle Boogie",
+    "artist": "Kool & The Gang",
+    "year": 1973
+   },
+   {
+    "title": "Cat People (Putting Out Fire)",
+    "artist": "David Bowie",
+    "year": 1982
+   },
+   {
+    "title": "Battle Without Honor or Humanity",
+    "artist": "Tomoyasu Hotei",
+    "year": 1999
+   },
+   {
+    "title": "The Lonely Shepherd",
+    "artist": "Zamfir",
+    "year": 1977
+   },
+   {
+    "title": "Didn't I Blow Your Mind This Time",
+    "artist": "The Delfonics",
+    "year": 1970
+   },
+   {
+    "title": "Street Life",
+    "artist": "Randy Crawford",
+    "year": 1979
+   },
+   {
+    "title": "Strawberry Letter 23",
+    "artist": "The Brothers Johnson",
+    "year": 1977
+   },
+   {
+    "title": "Django",
+    "artist": "Luis Bacalov",
+    "year": 1966
+   },
+   {
+    "title": "Flower of Carnage",
+    "artist": "Meiko Kaji",
+    "year": 1973
+   },
+   {
+    "title": "Woo Hoo",
+    "artist": "The 5.6.7.8's",
+    "year": 1998
+   },
+   {
+    "title": "Ironside",
+    "artist": "Quincy Jones",
+    "year": 1971
+   },
+   {
+    "title": "Unchained (The Payback / Untouchable)",
+    "artist": "James Brown",
+    "year": 2012
+   },
+   {
+    "title": "Ain't No Grave",
+    "artist": "Johnny Cash",
+    "year": 2010
+   },
+   {
+    "title": "Let's Stay Together",
+    "artist": "Al Green",
+    "year": 1972
+   },
+   {
+    "title": "Comanche",
+    "artist": "The Revels",
+    "year": 1959
+   },
+   {
+    "title": "Flowers on the Wall",
+    "artist": "The Statler Brothers",
+    "year": 1965
+   },
+   {
+    "title": "Lonesome Town",
+    "artist": "Ricky Nelson",
+    "year": 1958
+   },
+   {
+    "title": "If Love Is A Red Dress (Hang Me In Rags)",
+    "artist": "Maria McKee",
+    "year": 1994
+   },
+   {
+    "title": "Surf Rider",
+    "artist": "The Lively Ones",
+    "year": 1963
+   },
+   {
+    "title": "Down in Mexico",
+    "artist": "The Coasters",
+    "year": 1956
+   }
+  ]
+ },
+ {
+  "id": "gnr",
+  "name": "Galaxy News Radio",
+  "description": "Die Songs von Galaxy News Radio aus Fallout 3, moderiert von Three Dog.",
+  "theme": "pipboy-radio",
+  "era": "1930er–1950er",
+  "genre": "Swing & Oldies",
+  "group": "Film & Games",
+  "extra": [
+   "title",
+   "year"
+  ],
+  "tracks": [
+   {
+    "title": "I Don't Want to Set the World on Fire",
+    "artist": "The Ink Spots",
+    "year": 1941
+   },
+   {
+    "title": "Anything Goes",
+    "artist": "Cole Porter",
+    "year": 1934
+   },
+   {
+    "title": "Maybe",
+    "artist": "The Ink Spots",
+    "year": 1940
+   },
+   {
+    "title": "Way Back Home",
+    "artist": "Bob Crosby",
+    "year": 1937
+   },
+   {
+    "title": "Into Each Life Some Rain Must Fall",
+    "artist": "Ella Fitzgerald",
+    "year": 1944
+   },
+   {
+    "title": "Crazy He Calls Me",
+    "artist": "Billie Holiday",
+    "year": 1949
+   },
+   {
+    "title": "Butcher Pete (Part 1)",
+    "artist": "Roy Brown",
+    "year": 1949
+   },
+   {
+    "title": "Mighty Mighty Man",
+    "artist": "Roy Brown",
+    "year": 1949
+   },
+   {
+    "title": "Easy Living",
+    "artist": "Billie Holiday",
+    "year": 1937
+   },
+   {
+    "title": "A Wonderful Guy",
+    "artist": "Tex Beneke",
+    "year": 1949
+   },
+   {
+    "title": "Civilization (Bongo, Bongo, Bongo)",
+    "artist": "Danny Kaye",
+    "year": 1947
+   },
+   {
+    "title": "Uranium Fever",
+    "artist": "Elton Britt",
+    "year": 1947
+   },
+   {
+    "title": "Fox Boogie",
+    "artist": "Billy Munn",
+    "year": 1950
+   },
+   {
+    "title": "Let's Go Sunning",
+    "artist": "Jack Shaindlin",
+    "year": 1946
+   },
+   {
+    "title": "I'm Tickled Pink",
+    "artist": "Jack Shaindlin",
+    "year": 1950
+   },
+   {
+    "title": "Jazzy Interlude",
+    "artist": "Jack Shaindlin",
+    "year": 1947
+   }
+  ]
+ }
+]
