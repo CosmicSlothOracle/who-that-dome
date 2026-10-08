@@ -125,3 +125,124 @@ input {
     display: block !important;
   }
 }
+
+/* ---------- Spiel-Themes (pro Playlist per --t-* Variablen) ---------- */
+.tscope {
+  position: relative;
+  min-height: 100dvh;
+  background: var(--t-bg);
+  color: var(--t-on-bg);
+  font-family: var(--t-font), ui-sans-serif, system-ui, sans-serif;
+  text-transform: var(--t-upper);
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.tscope input {
+  text-transform: none;
+  user-select: text;
+}
+
+.tbtn {
+  background: var(--t-accent);
+  color: var(--t-on-accent);
+  border: 0;
+  border-radius: var(--t-radius);
+  padding: 16px 22px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  min-height: 56px;
+}
+
+.tbtn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.tbtn-ghost {
+  background: transparent;
+  color: var(--t-on-bg);
+  border: 2px solid currentColor;
+  border-radius: var(--t-radius);
+  padding: 12px 18px;
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 48px;
+}
+
+.tcard {
+  background: var(--t-surface);
+  color: var(--t-on-surface);
+  border-radius: var(--t-radius);
+}
+
+.tpad {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: var(--t-pad);
+  color: var(--t-on-pad);
+  border: 0;
+  border-radius: var(--t-radius);
+  font: inherit;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.08s, background 0.2s, opacity 0.2s;
+}
+
+.tpad:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.tpad[data-state="eliminated"] {
+  opacity: 0.35;
+}
+
+.tpad[data-state="active"] {
+  background: var(--t-accent);
+  color: var(--t-on-accent);
+}
+
+@keyframes t-pulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 color-mix(in srgb, var(--t-accent) 55%, transparent); }
+  50% { transform: scale(1.06); box-shadow: 0 0 0 28px color-mix(in srgb, var(--t-accent) 0%, transparent); }
+}
+
+.t-pulse { animation: t-pulse 1.6s ease-in-out infinite; }
+
+@keyframes t-spin { to { transform: rotate(360deg); } }
+.t-spin { animation: t-spin 4s linear infinite; transform-origin: center; transform-box: fill-box; }
+.t-spin-rev { animation: t-spin 6s linear infinite reverse; transform-origin: center; transform-box: fill-box; }
+.t-paused { animation-play-state: paused; }
+
+@keyframes t-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+.t-dot { animation: t-dot 1.2s ease-in-out infinite; }
+
+@keyframes t-bar { 0%, 100% { transform: scaleY(0.25); } 50% { transform: scaleY(1); } }
+.t-bar { animation: t-bar 0.9s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+
+@keyframes t-burst {
+  0% { transform: scale(0.4); opacity: 0; }
+  30% { opacity: 1; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+.t-burst { animation: t-burst 0.9s ease-out forwards; }
+
+@keyframes t-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-12px); }
+  40%, 80% { transform: translateX(12px); }
+}
+.t-shake { animation: t-shake 0.5s ease-in-out; }
+
+@media (prefers-reduced-motion: reduce) {
+  .t-pulse, .t-spin, .t-spin-rev, .t-dot, .t-bar, .t-burst, .t-shake { animation: none; }
+}
+
+.tscope svg {
+  max-width: 100%;
+  height: auto;
+}

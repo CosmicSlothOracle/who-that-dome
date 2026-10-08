@@ -3,8 +3,11 @@
 Stand: 2026-10-08. Für den nächsten Claude-Session-Einstieg gedacht — enthält keine Secrets.
 
 ## Was die App ist
-Hitster-artiges Musik-Gesellschaftsspiel (Next.js). QR-Karte scannen → Song über Spotify
-abspielen → Interpret/Titel/Album/Jahr/Stadt in der Web-UI raten und Punkte vergeben.
+Musik-Quiz für den Tisch (Next.js, PWA). Playlist wählen → 2–6 Spieler → 10 zufällige Songs über
+Spotify Connect. Pro Spieler ein Tap-Pad am Tischrand, wer zuerst tippt nennt den Interpreten
+(Freitext, Abgleich in `src/lib/answer-match.ts`). Regeln: Engine `src/lib/game-engine.ts`, Seite `/regeln`.
+Die Optik (Gerät, Farben, Font) kommt aus `pool.theme` (`src/lib/themes.ts`, `components/game/Devices.tsx`).
+Die QR-Karten (`/cards`, `/c/<id>`) sind nur noch ein Nebenpfad ohne Spielanbindung; `docs/punkteblatt.md` ist veraltet.
 Zwei Playback-Modi: `connect` (App steuert Spotify per Web-API, privat) und `deeplink`
 (öffnet Spotify-App, öffentlich nutzbar). Aktueller Fokus: Deutschrap-Edition (90er/00er/10er).
 
@@ -57,6 +60,8 @@ Details zu Spielablauf/Architektur: siehe `README.md`, `AGENTS.md`, `docs/punkte
   unter Environment — bewusst nicht in diesem Dokument wiederholt (Repo ist öffentlich).
 
 ## Noch ausstehend (aus ursprünglicher Roadmap)
+- Umbau (2026-10-08) ist lokal getestet (Vitest: `npm test`, Browser-Durchlauf mit allen 5 Themes), aber nicht auf echten Handys/Tablets. Offen: Fullscreen/Wake-Lock/Vibration auf Android, PWA-Installation, Tippen auf dem Gerät in der Tischmitte (Bildschirmtastatur dreht sich nicht mit).
+- Neue Playlist = `--theme speaker-yellow|reel-beige|turntable-orange|cassette-pixel|dictaphone-red --era … --genre …` beim Import. Pools mit „stub“-Track-IDs (alte drap-Seeds) werden auf der Landing ausgeblendet.
 - Deutschrap-Playlists real importieren — `src/data/drap-live.json` enthält aktuell nur
   Stub-Daten mit Fake-Track-IDs (`npm run import-drap` ohne Credentials geschrieben).
 - Feld „Stadt/Homebase" wird beim Import nie befüllt (`city: ""`) — nach Import manuell ergänzen.

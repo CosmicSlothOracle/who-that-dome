@@ -3,27 +3,42 @@
     {
       "id": "2000er",
       "name": "2000er Hits",
-      "description": "Die großen Radio-Hits der 2000er"
+      "description": "Die großen Radio-Hits der 2000er",
+      "theme": "reel-beige",
+      "era": "2000er",
+      "genre": "Pop & Rock"
     },
     {
       "id": "2010er",
       "name": "2010er Hits",
-      "description": "Decade-Playlist für die 2010er"
+      "description": "Decade-Playlist für die 2010er",
+      "theme": "speaker-yellow",
+      "era": "2010er",
+      "genre": "Pop"
     },
     {
       "id": "2020er",
       "name": "2020er Hits",
-      "description": "Aktuelle Charts und Streaming-Hits"
+      "description": "Aktuelle Charts und Streaming-Hits",
+      "theme": "cassette-pixel",
+      "era": "2020er",
+      "genre": "Pop"
     },
     {
       "id": "test",
       "name": "Testrunde",
-      "description": "Testrunde"
+      "description": "Testrunde",
+      "theme": "turntable-orange",
+      "era": "2000er–2020er",
+      "genre": "Deutschrap"
     },
     {
       "id": "testlauf",
       "name": "Testlauf",
-      "description": "Testlauf"
+      "description": "Testlauf",
+      "theme": "dictaphone-red",
+      "era": "Testlauf",
+      "genre": "Deutschrap"
     }
   ],
   "songs": [

@@ -7,6 +7,8 @@ type Me = {
   connected: boolean;
   displayName?: string;
   premium?: boolean;
+  reason?: string;
+  spotifyStatus?: number;
 };
 
 export function useAppConfig() {

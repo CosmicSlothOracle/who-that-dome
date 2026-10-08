@@ -1,10 +1,10 @@
 import { Suspense } from "react";
-import { HomeScreen } from "@/components/HomeScreen";
+import { Landing } from "@/components/Landing";
 
 export default function Home() {
   return (
     <Suspense fallback={<p className="shell text-[var(--muted)]">Lade…</p>}>
-      <HomeScreen />
+      <Landing />
     </Suspense>
   );
 }

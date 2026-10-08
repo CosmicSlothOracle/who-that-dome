@@ -2,12 +2,24 @@ export type PlaybackMode = "connect" | "deeplink";
 
 export type Decade = "90" | "00" | "10";
 
+export type ThemeId =
+  | "speaker-yellow"
+  | "reel-beige"
+  | "turntable-orange"
+  | "cassette-pixel"
+  | "dictaphone-red";
+
 export type Pool = {
   id: string;
   name: string;
   description: string;
   edition?: string;
   decade?: Decade;
+  theme?: ThemeId;
+  era?: string;
+  genre?: string;
+  /** Kategorien nach dem Interpreten, in dieser Reihenfolge. Default: album, year. */
+  extraCategories?: GuessCategory[];
 };
 
 export type Song = {

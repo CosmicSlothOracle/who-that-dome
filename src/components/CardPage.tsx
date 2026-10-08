@@ -1,31 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { getPool } from "@/lib/catalog";
-import { loadGame, openCard, saveGame } from "@/lib/game-state";
 import { playTrack } from "@/lib/playback";
 import type { Song } from "@/lib/types";
 import { AppShell } from "./AppShell";
 import { useAppConfig } from "./SpotifyStatus";
 
 export function CardPage({ song }: { song: Song }) {
-  const router = useRouter();
   const config = useAppConfig();
   const [revealed, setRevealed] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const pool = getPool(song.poolId);
-
-  function takeIntoGame() {
-    const game = loadGame();
-    if (game) {
-      saveGame(openCard(game, song.id));
-      router.push("/play");
-      return;
-    }
-    router.push(`/play?card=${encodeURIComponent(song.id)}`);
-  }
 
   async function play() {
     if (!config) return;
@@ -34,7 +21,7 @@ export function CardPage({ song }: { song: Song }) {
   }
 
   return (
-    <AppShell actions={<Link className="ghost-btn text-sm" href="/play">Zum Spiel</Link>}>
+    <AppShell actions={<Link className="ghost-btn text-sm" href="/">Zum Spiel</Link>}>
       <section className="panel p-6">
         <p className="text-xs uppercase tracking-[0.2em] text-[var(--gold)]">
           {pool?.name ?? song.poolId}
@@ -47,9 +34,6 @@ export function CardPage({ song }: { song: Song }) {
         <div className="mt-6 flex flex-col gap-2 sm:flex-row">
           <button className="gold-btn" type="button" onClick={() => void play()}>
             Song abspielen
-          </button>
-          <button className="ghost-btn" type="button" onClick={takeIntoGame}>
-            In laufendes Spiel übernehmen
           </button>
         </div>
 

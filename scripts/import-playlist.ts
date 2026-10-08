@@ -117,6 +117,13 @@ async function main() {
     ? { ...existingPool, name: poolName, description: existingPool.description || playlist.description || poolName }
     : { id: poolId, name: poolName, description: playlist.description || poolName };
 
+  const theme = arg("theme");
+  const era = arg("era");
+  const genre = arg("genre");
+  if (theme) pool.theme = theme as Pool["theme"];
+  if (era) pool.era = era;
+  if (genre) pool.genre = genre;
+
   if (!existingPool) catalog.pools.push(pool);
   else Object.assign(existingPool, pool);
 

@@ -10,6 +10,7 @@
     "build": "next build",
     "start": "next start --hostname 0.0.0.0 --port ${PORT:-3000}",
     "lint": "eslint",
+    "test": "vitest run",
     "import-playlist": "tsx scripts/import-playlist.ts",
     "import-drap": "tsx scripts/import-drap.ts",
     "generate-cards": "tsx scripts/generate-cards.ts",
@@ -28,7 +29,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^24.19.1",
     "@types/qrcode": "^1.5.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -36,6 +37,7 @@
     "eslint-config-next": "16.3.4",
     "tailwindcss": "^4",
     "tsx": "^4.23.13",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^5.0.3"
   }
 }

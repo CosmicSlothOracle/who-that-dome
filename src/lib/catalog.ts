@@ -88,3 +88,20 @@ export function answerFor(song: Song, category: GuessCategory): string | null {
   if (category === "city") return song.city?.trim() ? song.city : "—";
   return song[category];
 }
+
+export function shuffle<T>(items: T[], random: () => number = Math.random): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+/** Pools mit Platzhalter-Track-IDs (Stubs) sind nicht spielbar. */
+export function playablePools(): Pool[] {
+  return catalog.pools.filter((pool) => {
+    const songs = catalog.songs.filter((song) => song.poolId === pool.id);
+    return songs.length >= 2 && songs.every((song) => !/stub/i.test(song.spotifyTrackId));
+  });
+}
