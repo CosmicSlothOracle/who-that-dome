@@ -4,6 +4,7 @@ import {
   readPkceCookies,
   setAuthCookies,
 } from "@/lib/auth";
+import { getAppUrl } from "@/lib/config";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest) {
@@ -11,15 +12,16 @@ export async function GET(request: NextRequest) {
   const code = request.nextUrl.searchParams.get("code");
   const state = request.nextUrl.searchParams.get("state");
   const pkce = await readPkceCookies();
+  const base = getAppUrl(request.nextUrl.origin);
 
   if (error) {
     await clearPkceCookies();
-    return NextResponse.redirect(new URL(`/?auth=error&reason=${error}`, request.url));
+    return NextResponse.redirect(new URL(`/?auth=error&reason=${error}`, base));
   }
 
   if (!code || !state || !pkce.verifier || !pkce.redirectUri || state !== pkce.state) {
     await clearPkceCookies();
-    return NextResponse.redirect(new URL("/?auth=error&reason=state", request.url));
+    return NextResponse.redirect(new URL("/?auth=error&reason=state", base));
   }
 
   try {
@@ -30,9 +32,9 @@ export async function GET(request: NextRequest) {
     });
     await setAuthCookies(tokens);
     await clearPkceCookies();
-    return NextResponse.redirect(new URL(pkce.next || "/play", request.url));
+    return NextResponse.redirect(new URL(pkce.next || "/play", base));
   } catch {
     await clearPkceCookies();
-    return NextResponse.redirect(new URL("/?auth=error&reason=token", request.url));
+    return NextResponse.redirect(new URL("/?auth=error&reason=token", base));
   }
 }
