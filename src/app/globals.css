@@ -1,26 +1,127 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #100d0a;
+  --bg-elevated: #1b1611;
+  --bg-card: #241d16;
+  --line: rgba(250, 204, 140, 0.16);
+  --gold: #f3c06a;
+  --gold-strong: #ffd789;
+  --ink: #fff6e8;
+  --muted: #c4b19a;
+  --danger: #ff7a7a;
+  --ok: #7ddea0;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: var(--bg);
+  --color-foreground: var(--ink);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(243, 192, 106, 0.12), transparent 50%),
+    radial-gradient(900px 500px at 110% 10%, rgba(255, 122, 122, 0.08), transparent 45%),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.shell {
+  width: min(720px, 100%);
+  margin: 0 auto;
+  padding: 20px 16px 48px;
+}
+
+.panel {
+  background: color-mix(in srgb, var(--bg-card) 86%, transparent);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(16px);
+}
+
+.gold-btn {
+  background: linear-gradient(180deg, var(--gold-strong), var(--gold));
+  color: #2a1c08;
+  font-weight: 700;
+  border: 0;
+  border-radius: 999px;
+  padding: 14px 20px;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(243, 192, 106, 0.22);
+}
+
+.gold-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ghost-btn {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 12px 18px;
+  cursor: pointer;
+}
+
+.vinyl {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 50%, #f3c06a 0 14px, #1a130c 15px 22px, #2a2118 23px 28px, #111 29px 38px, #2d241b 39px 46px, #0d0b09 47px 100%);
+  box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.03), 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.vinyl.spin {
+  animation: spin 3.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.reveal-hidden {
+  filter: blur(9px);
+  user-select: none;
+}
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-sheet {
+    display: block !important;
+  }
 }

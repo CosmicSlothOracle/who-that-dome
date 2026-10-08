@@ -1,0 +1,6 @@
+Kartenmaß fest: 750 × 1050 Pixel (63,5 × 88,9 mm bei 300 dpi).
+Dateiname: drap_90_001_front.png und drap_90_001_back.png
+Ablage: assets/cards/incoming/
+Auf der Rückseite die Mitte frei lassen. Der QR sitzt bei x=228, y=280, 295×295 px (25 mm).
+Danach: npm run compose-cards
+Fertige Druck-PNGs: handoff/drap/v001/print/cards/
