@@ -49,16 +49,6 @@ Details zu Spielablauf/Architektur: siehe `README.md`, `AGENTS.md`, `docs/punkte
    Browser landete nach Spotify-Login auf einer nicht erreichbaren Adresse. Fix: `getAppUrl()`
    (liest `NEXT_PUBLIC_APP_URL`) als Redirect-Basis statt `request.url`.
 
-## Gelöst (2026-10-08): „Mit Spotify verbinden" blieb nach dem Login
-Ursache: Spotify lehnte `GET /me` mit 403 ab, weil der eingeloggte Account nicht im
-Spotify Dashboard unter *User Management* der Dev-Mode-App eingetragen war (max. 5 Nutzer).
-Behebung ohne Codeänderung: Account dort eintragen. Wichtig für Mitspieler: jeder, der sich
-verbinden soll, muss eingetragen sein (App-Owner braucht Premium).
-Code-Änderung: `/api/auth/me` liefert bei Ablehnung jetzt `reason`, `spotifyStatus`,
-`spotifyMessage` (noch nicht committet). UI zeigt bei `spotify_rejected` weiterhin nur den
-Button — Meldung wäre ein sinnvoller nächster Schritt.
-Hinweis: `reason=state` nach dem Login heißt, dass die PKCE-Cookies abgelaufen sind (10 Min.).
-
 ## Umgebungen
 - **Lokal**: `npm run dev`, erreichbar unter `http://127.0.0.1:3000` (nicht `localhost`).
 - **Render**: https://who-that-dome.onrender.com (Free-Plan, Blueprint `render.yaml`,
@@ -66,12 +56,9 @@ Hinweis: `reason=state` nach dem Login heißt, dass die PKCE-Cookies abgelaufen 
 - `.env.local` liegt lokal vor (gitignored), Produktionswerte stehen im Render-Dashboard
   unter Environment — bewusst nicht in diesem Dokument wiederholt (Repo ist öffentlich).
 
-## Noch ausstehend (aus ursprünglicher Roadmap, unabhängig vom offenen Bug)
+## Noch ausstehend (aus ursprünglicher Roadmap)
 - Deutschrap-Playlists real importieren — `src/data/drap-live.json` enthält aktuell nur
   Stub-Daten mit Fake-Track-IDs (`npm run import-drap` ohne Credentials geschrieben).
-- User wollte eine eigene Testplaylist (~10 Songs) zum Reinspielen zusammenstellen —
-  Link steht noch aus. Befehl dafür: `npm run import-playlist -- "<link>" --pool test --name "Testrunde"`
-  (Playlist muss öffentlich sein, schreibt nach `src/data/songs.json`).
 - Feld „Stadt/Homebase" wird beim Import nie befüllt (`city: ""`) — nach Import manuell ergänzen.
 - Kartendesign (Vorder-/Rückseite PNG, 750×1050px) fehlt komplett — bisher nur
   Platzhalter-Anleitung in `assets/cards/incoming/LESEN.txt`.
@@ -87,3 +74,9 @@ Hinweis: `reason=state` nach dem Login heißt, dass die PKCE-Cookies abgelaufen 
   für App-Tests sind keine gedruckten/gescannten echten QR-Codes nötig.
 - Kein `gh`/keine SSH-Keys/Credentials waren initial auf dieser Maschine eingerichtet;
   `gh` liegt jetzt unter `~/.local/bin/gh`, Auth-Status via `gh auth status`.
+- Spotify-App im Dev Mode: nur im Dashboard (*User Management*, max. 5) eingetragene Accounts
+  können sich verbinden, sonst 403 auf `/me`. `/api/auth/me` nennt den Grund (`reason`).
+- Playlist-Import braucht seit 2026 einen Nutzer-Login: im eingeloggten Browser
+  `/api/dev/playlist?id=<id>` aufrufen (schreibt `.cache/`), dann
+  `npm run import-playlist -- x --pool <pool> --name "<Name>" --from-file .cache/playlist-<id>.json`.
+  Pool `test` („Testrunde“, 14 Songs, IDs `test-001`…`test-014`) ist bereits importiert.
