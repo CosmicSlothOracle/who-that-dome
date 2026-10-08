@@ -14,6 +14,11 @@
       "id": "2020er",
       "name": "2020er Hits",
       "description": "Aktuelle Charts und Streaming-Hits"
+    },
+    {
+      "id": "test",
+      "name": "Testrunde",
+      "description": "Testrunde"
     }
   ],
   "songs": [
@@ -232,6 +237,146 @@
       "artist": "Sabrina Carpenter",
       "album": "Short n' Sweet",
       "year": 2024
+    },
+    {
+      "id": "test-001",
+      "poolId": "test",
+      "spotifyTrackId": "1NridNoJ0aBJyCh6hQxY4T",
+      "title": "Bitte sag's nicht meiner Freundin",
+      "artist": "K.I.Z",
+      "album": "Rap über Hass",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27317233d5001d802917096fdf4"
+    },
+    {
+      "id": "test-002",
+      "poolId": "test",
+      "spotifyTrackId": "0674eBMZxpwxHWOz1pxly4",
+      "title": "Kinderkram",
+      "artist": "K.I.Z",
+      "album": "Rap über Hass",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27317233d5001d802917096fdf4"
+    },
+    {
+      "id": "test-003",
+      "poolId": "test",
+      "spotifyTrackId": "52P6IsUUXpVlYagiqc9lo3",
+      "title": "Unterfickt und geistig behindert",
+      "artist": "K.I.Z, Maxim K.I.Z, Nico K.I.Z",
+      "album": "Rap über Hass",
+      "year": 2021,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27317233d5001d802917096fdf4"
+    },
+    {
+      "id": "test-004",
+      "poolId": "test",
+      "spotifyTrackId": "6i5J9CxXA9vJQGoSZ2w385",
+      "title": "Wenn es brennt",
+      "artist": "K.I.Z",
+      "album": "Hahnenkampf (+ Excl. K.I.Z. Kolumnen)",
+      "year": 2007,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27306ee55342d661e7616c2ea84"
+    },
+    {
+      "id": "test-005",
+      "poolId": "test",
+      "spotifyTrackId": "4mMyDZJ30UhjTX9zTe1cIz",
+      "title": "Der durch die Tür Geher",
+      "artist": "K.I.Z, Nico K.I.Z",
+      "album": "Hahnenkampf (+ Excl. K.I.Z. Kolumnen)",
+      "year": 2007,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27306ee55342d661e7616c2ea84"
+    },
+    {
+      "id": "test-006",
+      "poolId": "test",
+      "spotifyTrackId": "2XK36pS2PZpXxXIqjMT4k5",
+      "title": "Der Schöne und das Biest",
+      "artist": "K.I.Z",
+      "album": "Hahnenkampf (+ Excl. K.I.Z. Kolumnen)",
+      "year": 2007,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27306ee55342d661e7616c2ea84"
+    },
+    {
+      "id": "test-007",
+      "poolId": "test",
+      "spotifyTrackId": "7l0Iz4dNe0DsTTMoaKxB0q",
+      "title": "Pauch It",
+      "artist": "K.I.Z, Massimo",
+      "album": "Hahnenkampf (+ Excl. K.I.Z. Kolumnen)",
+      "year": 2007,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27306ee55342d661e7616c2ea84"
+    },
+    {
+      "id": "test-008",
+      "poolId": "test",
+      "spotifyTrackId": "11HT33bEUbUBfNqWt6VCx9",
+      "title": "Hartz 4",
+      "artist": "Tarek K.I.Z, Drunken Masters, K.I.Z",
+      "album": "Hartz 4",
+      "year": 2022,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a5d430f75f957128cc350bf2"
+    },
+    {
+      "id": "test-009",
+      "poolId": "test",
+      "spotifyTrackId": "1OGsRyYiawG2hRI3ksr2K2",
+      "title": "Das System (Die kleinen Dinge)",
+      "artist": "K.I.Z, Sido",
+      "album": "Sexismus Gegen Rechts",
+      "year": 2009,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ec8e730f217175323e2a12b1"
+    },
+    {
+      "id": "test-010",
+      "poolId": "test",
+      "spotifyTrackId": "7EMB8CUXTIkNmpwb9zmgCA",
+      "title": "Der Schöne und das Biest",
+      "artist": "K.I.Z",
+      "album": "Hahnenkampf",
+      "year": 2007,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731ba289382f4b4e527a7995e2"
+    },
+    {
+      "id": "test-011",
+      "poolId": "test",
+      "spotifyTrackId": "2SyPjLkEbVsuvrA1aOGbIg",
+      "title": "11. Plage",
+      "artist": "K.I.Z",
+      "album": "Hahnenkampf",
+      "year": 2007,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731ba289382f4b4e527a7995e2"
+    },
+    {
+      "id": "test-012",
+      "poolId": "test",
+      "spotifyTrackId": "60KSIwGPOqv13fRQe0RVIQ",
+      "title": "Ohrfeige",
+      "artist": "K.I.Z",
+      "album": "Sexismus Gegen Rechts",
+      "year": 2009,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ec8e730f217175323e2a12b1"
+    },
+    {
+      "id": "test-013",
+      "poolId": "test",
+      "spotifyTrackId": "6REiDLAJKtYGoZsPVgNdiH",
+      "title": "Neuruppin",
+      "artist": "K.I.Z, Drama Kuba, Cannibal Rob",
+      "album": "Hahnenkampf",
+      "year": 2007,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731ba289382f4b4e527a7995e2"
+    },
+    {
+      "id": "test-014",
+      "poolId": "test",
+      "spotifyTrackId": "4q93KLrUbeAudJArZLilzo",
+      "title": "Fremdgehen",
+      "artist": "K.I.Z, Tarek K.I.Z",
+      "album": "Urlaub fürs Gehirn",
+      "year": 2011,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273258eff000f97f1f3970df5a6"
     }
   ]
 }

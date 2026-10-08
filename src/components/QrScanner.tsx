@@ -48,13 +48,20 @@ export function QrScanner({
 
     return () => {
       if (!scanner) return;
-      scanner.stop().catch(() => undefined).finally(() => {
+      const instance = scanner;
+      void (async () => {
+        // stop() wirft synchron, wenn die Kamera nie gestartet wurde (z. B. Rechte verweigert).
         try {
-          scanner?.clear();
+          await instance.stop();
+        } catch {
+          // nicht gestartet
+        }
+        try {
+          instance.clear();
         } catch {
           // already torn down
         }
-      });
+      })();
     };
   }, [onResult]);
 

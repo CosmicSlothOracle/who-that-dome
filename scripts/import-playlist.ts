@@ -72,6 +72,19 @@ async function fetchPlaylist(id: string, token: string) {
   return { name: playlist.name, description: playlist.description, tracks };
 }
 
+// Datei von /api/dev/playlist (Nutzer-Token nötig, siehe dort).
+function loadPlaylistFile(path: string) {
+  const data = JSON.parse(readFileSync(resolve(process.cwd(), path), "utf8")) as {
+    name: string;
+    description: string;
+    items: { track?: SpotifyTrack | null; item?: SpotifyTrack | null }[];
+  };
+  const tracks = data.items
+    .map((entry) => entry.item ?? entry.track)
+    .filter((track): track is SpotifyTrack => Boolean(track?.id) && track?.type !== "episode");
+  return { name: data.name, description: data.description, tracks };
+}
+
 function yearFrom(date: string): number {
   const year = Number.parseInt(date.slice(0, 4), 10);
   return Number.isFinite(year) ? year : 0;
@@ -92,8 +105,10 @@ async function main() {
 
   const catalogPath = resolve(process.cwd(), "src/data/songs.json");
   const catalog = JSON.parse(readFileSync(catalogPath, "utf8")) as Catalog;
-  const token = await clientCredentialsToken();
-  const playlist = await fetchPlaylist(playlistIdFromInput(positional), token);
+  const fromFile = arg("from-file");
+  const playlist = fromFile
+    ? loadPlaylistFile(fromFile)
+    : await fetchPlaylist(playlistIdFromInput(positional), await clientCredentialsToken());
   const poolName = arg("name", playlist.name) ?? playlist.name;
   const replace = hasFlag("replace");
 
