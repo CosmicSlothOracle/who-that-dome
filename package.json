@@ -14,7 +14,8 @@
     "import-drap": "tsx scripts/import-drap.ts",
     "generate-cards": "tsx scripts/generate-cards.ts",
     "export-qr-pack": "tsx scripts/export-qr-pack.ts",
-    "compose-cards": "tsx scripts/compose-cards.ts"
+    "compose-cards": "tsx scripts/compose-cards.ts",
+    "make-card-backs": "tsx scripts/make-card-backs.ts"
   },
   "dependencies": {
     "html5-qrcode": "^2.3.8",
