@@ -58,8 +58,47 @@ export async function playViaConnect(
   };
 }
 
-export async function pauseViaConnect(): Promise<void> {
-  await fetch("/api/playback/pause", { method: "POST" });
+export async function pauseViaConnect(): Promise<boolean> {
+  const response = await fetch("/api/playback/pause", { method: "POST" });
+  return response.ok;
+}
+
+const SETTLE_MS = 350;
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+/** Spotify meldet direkt nach „Weiter“ oft noch „pausiert“ (409). Kurz warten und erneut senden. */
+export async function pauseReliably(): Promise<void> {
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    if (await pauseViaConnect()) return;
+    await sleep(SETTLE_MS);
+  }
+}
+
+// Steuerbefehle laufen nacheinander, damit „Pause“ und „Weiter“ nicht überholen.
+let queue: Promise<unknown> = Promise.resolve();
+
+export function enqueuePlayback(task: () => Promise<unknown>): void {
+  queue = queue
+    .then(task)
+    .catch(() => undefined)
+    .then(() => sleep(SETTLE_MS));
+}
+
+export async function resumeViaConnect(deviceId?: string | null): Promise<void> {
+  await fetch("/api/playback/resume", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ deviceId: deviceId || undefined }),
+  });
+}
+
+/** Nicht jedes Gerät erlaubt Lautstärke per API (Handys oft nicht). Fehler sind unkritisch. */
+export async function setVolumeViaConnect(percent: number, deviceId?: string | null): Promise<void> {
+  await fetch("/api/playback/volume", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ percent, deviceId: deviceId || undefined }),
+  });
 }
 
 export async function playTrack(options: {

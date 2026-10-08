@@ -14,7 +14,13 @@ import {
   categoriesFor,
   tap,
 } from "@/lib/game-engine";
-import { pauseViaConnect, playTrack } from "@/lib/playback";
+import {
+  enqueuePlayback,
+  pauseReliably,
+  playTrack,
+  resumeViaConnect,
+  setVolumeViaConnect,
+} from "@/lib/playback";
 import { THEMES } from "@/lib/themes";
 import { useDeviceId } from "@/lib/use-game";
 import { useMatch } from "@/lib/use-match";
@@ -23,6 +29,8 @@ import { MatchScreen } from "./game/MatchScreen";
 import { Setup } from "./game/Setup";
 import { ThemeScope } from "./game/ThemeScope";
 import { useAppConfig } from "./SpotifyStatus";
+
+const DUCK_PERCENT = 35;
 
 export function PlayApp() {
   const router = useRouter();
@@ -68,10 +76,16 @@ export function PlayApp() {
 
   const active = match;
 
-  async function play(songId: string | null) {
+  const connect = config.playbackMode === "connect";
+
+  /** Neuer Song: Lautstärke zurück auf voll, dann von vorn. */
+  function play(songId: string | null) {
     if (!songId || !config) return;
-    const result = await playTrack({ mode: config.playbackMode, cardId: songId, deviceId });
-    setError(result.ok ? null : result.message);
+    enqueuePlayback(async () => {
+      if (connect) await setVolumeViaConnect(100, deviceId).catch(() => undefined);
+      const result = await playTrack({ mode: config.playbackMode, cardId: songId, deviceId });
+      setError(result.ok ? null : result.message);
+    });
   }
 
   return (
@@ -83,28 +97,40 @@ export function PlayApp() {
           void enterImmersive();
           const next = begin(active);
           setMatch(next);
-          void play(currentSongId(next));
+          play(currentSongId(next));
         },
         onTap: (playerId) => {
-          // Aktuellen Stand lesen, damit ein zweiter Tap im selben Frame ignoriert wird.
-          setMatch((prev) => (prev ? tap(prev, playerId) : prev));
+          const next = tap(active, playerId);
+          if (next === active) return;
+          setMatch(next);
+          // Sobald jemand antworten will: Musik pausieren.
+          if (connect) enqueuePlayback(() => pauseReliably());
         },
         onAnswer: (correct) => {
-          setMatch((prev) => {
-            if (!prev) return prev;
-            const song = getSong(currentSongId(prev) ?? "");
-            if (!song) return prev;
-            return submitAnswer(prev, correct, categoriesFor(song, getPool(prev.poolId)));
-          });
+          const song = getSong(currentSongId(active) ?? "");
+          if (!song) return;
+          const next = submitAnswer(active, correct, categoriesFor(song, getPool(active.poolId)));
+          setMatch(next);
+          if (!connect) return;
+          if (next.phase === "listening") {
+            // Interpret falsch: dort weiter, wo pausiert wurde, für die übrigen Spieler.
+            enqueuePlayback(() => resumeViaConnect(deviceId));
+          } else if (next.phase === "answering" && active.step === 0) {
+            // Interpret richtig: leiser weiterspielen, bis die Runde entschieden ist.
+            enqueuePlayback(async () => {
+              await setVolumeViaConnect(DUCK_PERCENT, deviceId).catch(() => undefined);
+              await resumeViaConnect(deviceId);
+            });
+          }
         },
         onNext: () => {
           const next = nextRound(active);
           setMatch(next);
           if (next.phase === "finished") {
-            void pauseViaConnect();
+            enqueuePlayback(() => pauseReliably());
             void leaveImmersive();
           } else {
-            void play(currentSongId(next));
+            play(currentSongId(next));
           }
         },
         onRematch: () => {
